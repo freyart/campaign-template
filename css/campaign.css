@@ -83,4 +83,11 @@ div.liste-personnages.secondaires .row>div{
     padding-left: 5px;
 }
 
+/* Pour l'affichage des listes de personnages */
 
+.journal-campagne .card.new>.card-header {
+    background-color: #f5eacd;
+}
+.journal-campagne .card.new>.card-header>.card-title::before {
+    content: "(nouveau !) "
+}

@@ -9,5 +9,10 @@ $(document).ready(function () {
         });
     });
 
+    $(document).ready(function () {
+        $("#sidebar").load("sidebar.html");
+    })
+
+
 });
 
