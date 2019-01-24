@@ -1,0 +1,70 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    margin-top:1rem;
+}
+
+.home-template {
+    text-align: center;
+    font-family: 'Alegreya SC', serif;
+    background-color: #DDD6BC;
+}
+
+#main {
+    padding: 1rem;
+}
+
+h1 {
+    font-family: 'Alegreya SC', serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Alegreya SC', serif;
+}
+
+h3 {
+    font-family: 'Alegreya SC', serif;
+}
+
+h4 {
+    font-family: 'Alegreya SC', serif;
+}
+
+h5 {
+    font-family: 'Alegreya SC', serif;
+}
+
+/* Pour l'affichage des listes de personnages */
+
+div.liste-personnages div.card {
+    margin-top: 1rem;
+}
+
+div.liste-personnages div.card blockquote {
+    font-size: 1rem;
+    text-align: right;
+    font-style: oblique;
+    margin-bottom: 0;
+}
+
+div.liste-personnages blockquote::before {
+    content: "\2013\00a0\201C";
+}
+
+div.liste-personnages blockquote::after {
+    content: "\201D";
+}
+div.liste-personnages div.card-body {
+    padding: 10px;
+}
+
+div.liste-personnages div.card-picture{
+    max-height:12rem;
+    overflow: hidden;
+}
+
+div.liste-personnages img {
+    max-width: 100%;
+    max-height: 100%;
+}

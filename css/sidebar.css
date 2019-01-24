@@ -130,7 +130,7 @@
     display: block;
   }
   #main {
-      width:calc(100% - 300px);
+      width: calc(100% - 300px);
       float: right;
   }
 }
@@ -138,4 +138,5 @@
 body {
   margin: 0px;
   padding: 0px;
+  width: 100%;
 }
