@@ -1,5 +1,11 @@
+:root {
+    --main-bg-color: whitesmoke;
+    --main-flourish-color:  #f5eacd;
+    --secondary-flourish-color: #CCC6AC;
+  }
+
 body {
-    background-color: whitesmoke;
+    background-color: var(--main-bg-color);
     font-family: 'Lato', sans-serif;
     margin-top:1rem;
 }
@@ -7,7 +13,11 @@ body {
 .home-template {
     text-align: center;
     font-family: 'Alegreya SC', serif;
-    background-color: #DDD6BC;
+    background-color: var(--main-flourish-color);
+    border-color: var(--secondary-flourish-color);
+    border-style: solid;
+    border-width: 2px;
+    
 }
 
 #main {
@@ -21,7 +31,6 @@ h1, h2, h3, h4, h5 {
 h1 {
     text-align: center;
 }
-
 
 /* Pour l'affichage des listes de personnages */
 
@@ -86,8 +95,18 @@ div.liste-personnages.secondaires .row>div{
 /* Pour l'affichage des listes de personnages */
 
 .journal-campagne .card.new>.card-header {
-    background-color: #f5eacd;
+    background-color: var(--main-flourish-color);
 }
-.journal-campagne .card.new>.card-header>.card-title::before {
+
+.journal-campagne .card-header h5{
+    margin-bottom: 0;
+}
+
+.journal-campagne .card.new .card-title::before {
     content: "(nouveau !) "
+}
+
+.journal-campagne .card-subtitle {
+    clear: both;
+    font-style: italic;
 }
