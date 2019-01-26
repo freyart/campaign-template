@@ -1,3 +1,5 @@
+var hostName = 'https://freyart.github.io/campaign-template/'
+
 $(document).ready(function () {
     $("[data-includeHTML]").each(function () {                
         $(this).load($(this).attr("data-includeHTML"));
@@ -13,7 +15,7 @@ $(document).ready(function () {
         $("#sidebar").load("sidebar.html");
     })
 
-    UpdateNews();
+    FormJson();
 });
 
 function UpdateNews(){
@@ -23,17 +25,40 @@ function UpdateNews(){
     })
     .done(function(data) {
         var $sortie = $('<ol>');
-
-        data.forEach(function(element) {
+        $.each(data, function(i, item)
+        {
             var $nouvelle = $('<li>');
             $nouvelle.append(element.message);
-            $sortie.append($nouvelle);
+            $sortie.append($nouvelle);            
         });
+
 
         $('#sortie-nouvelles').html($sortie);
     })
 }
 
+function FormJson(){
+    var tests = [];
+    var testNews = new Object();
+    testNews.date = new Date(1900, 10, 12);
+    testNews.message = 'blablablabalbla';
+    tests.push(testNews);
+    testNews.date = new Date(2018, 07, 14);
+    testNews.message = 'fete a peri';
+    tests.push(testNews);
+
+    $.ajax
+    ({
+        type: "POST",
+        dataType : 'json',
+        async: false,
+        crossDomain: true,
+        url: hostName +'test.json',
+        data: JSON.stringify(tests),
+            success: function(){console.error('saved');},
+            failure: function(){console.error('failed save')}
+    });
+}
 
 /*
 function updateResultsNumber(resultsNumber) {
