@@ -29,7 +29,7 @@ function UpdateNews(){
         $.each(data, function(i, item)
         {
             var $nouvelle = $('<li>');
-            $nouvelle.append(element.message);
+            $nouvelle.append(data.message);
             $sortie.append($nouvelle);            
         });
 
