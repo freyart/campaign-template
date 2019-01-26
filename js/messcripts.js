@@ -16,6 +16,7 @@ $(document).ready(function () {
     })
 
     FormJson();
+    UpdateNews();
 });
 
 function UpdateNews(){
