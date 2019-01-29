@@ -26,12 +26,6 @@
   min-width: 560px;
   text-align: center;
 }
-.stat-block.wide .section-left{
-  margin-right: 1.5%;
-}
-.stat-block.wide .section-right{
-  margin-left: 1.5%;
-}
 .tapered-rule{
   display: block;
   width: 100%;
