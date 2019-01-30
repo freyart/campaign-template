@@ -2,125 +2,92 @@
     "monsters": [
         {
             "name": "Animated Armor",
-            "role": "Defender",
-            "keywords": "Medium Construct",
-            "challenge": "CR 1 (200 XP)",
-            "initiative": 0,
-            "perception": "-4; passive 6",
-            "armor": 18,
-            "armor-desc": "natural armor",
+            "keywords": "Medium construct, unaligned",
+            "armor": "18 (natural armor)",
+            "hp": "33 (6d8 + 6)",
             "speed": "25 ft.",
-            "hp": 33,
-            "hd": "6d8+6",
-            "section-head": [
-                {
-                    "label": "Damage Immunities",
-                    "text": "poison, psychic"
-                },
-                {
-                    "label": "Condition Immunities",
-                    "text": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned"
-                },
-                {
-                    "label": "Senses",
-                    "text": "blindsight 60ft. (blind beyond this radius)"
-                }
-            ],
+            "str": 14,
+            "dex": 11,
+            "con": 13,
+            "int": 1,
+            "wis": 3,
+            "cha": 1,
+            "skills": "",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "poison, psychic",
+            "cond-immunities": "blinded, charmed, deafened, exhaustion, frightened, petrified, poisoned",
+            "senses": "blindsight 60ft. (blind beyond this radius), passive Perception 6",
+            "languages": "—",
+            "challenge": "1 (200 XP)",
             "section-traits": [
                 {
-                    "label": "Antimagic Susceptibility",
+                    "label": "Antimagic Suceptibility",
                     "deco": "",
-                    "desc": "The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+                    "desc": "The armor is incapacitated while in the area of an <i>antimagic field</i>. If targeted by <i>dispel magic</i>, the armor must succeed on a Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute."
                 },
                 {
                     "label": "False Appearance",
                     "deco": "",
-                    "desc": "While the armore remains motionless, it is indistinguishable from a normal suit of armor."
+                    "desc": "While the armor remains motionless, it is indistinguishable from a normal suit of armor."
                 }
             ],
             "section-actions": [
                 {
                     "label": "Multiattack",
-                    "action": "standard",
                     "deco": "",
                     "desc": "The armor makes two melee attacks."
                 },
                 {
                     "label": "Slam",
-                    "action": "standard",
-                    "deco": "",
-                    "desc": "+4 vs. AC; 1d6 + 2 bludgeoning damage."
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+4 to hit, reach 5 ft., one target.<br/>Hit: 5 (1d6 + 2) bludgeoning damage."
                 }
             ],
-            "alignment": "Unaligned",
-            "languages": "-",
-            "str": 14,
-            "dex": 11,
-            "con": 13,
-            "wis": 3,
-            "int": 1,
-            "cha": 1
+            "section-reactions": [],
+            "legendary-actions": []
         },
         {
-            "name": "Goblin Sruffer",
-            "role": "Defender",
-            "keywords": "Medium Construct",
-            "challenge": "CR 1 (200 XP)",
-            "initiative": 0,
-            "perception": "-4; passive 6",
-            "armor": 18,
-            "armor-desc": "natural armor",
-            "speed": "25 ft.",
-            "hp": 33,
-            "hd": "6d8+6",
-            "section-head": [
-                {
-                    "label": "Damage Immunities",
-                    "text": "poison, psychic"
-                },
-                {
-                    "label": "Condition Immunities",
-                    "text": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned"
-                },
-                {
-                    "label": "Senses",
-                    "text": "blindsight 60ft. (blind beyond this radius)"
-                }
-            ],
+            "name": "Quaggoth",
+            "keywords": "Medium humanoid (quaggoth), chaotic neutral",
+            "armor": "13 (natural armor)",
+            "hp": "45 (6d8 + 18)",
+            "speed": "30 ft., climb 30 ft.",
+            "str": 17,
+            "dex": 12,
+            "con": 16,
+            "int": 6,
+            "wis": 12,
+            "cha": 7,
+            "skills": "Athletics +5",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "poison",
+            "cond-immunities": "poisoned",
+            "senses": "darkvision 120 ft., passive Perception 10",
+            "languages": "—",
+            "challenge": "2 (450 XP)",
             "section-traits": [
                 {
-                    "label": "Antimagic Susceptibility",
+                    "label": "Wounded Fury",
                     "deco": "",
-                    "desc": "The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
-                },
-                {
-                    "label": "False Appearance",
-                    "deco": "",
-                    "desc": "While the armore remains motionless, it is indistinguishable from a normal suit of armor."
+                    "desc": "While it has 10 hit points of fewer, the quaggoth has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee attack."
                 }
             ],
             "section-actions": [
                 {
                     "label": "Multiattack",
-                    "action": "standard",
                     "deco": "",
-                    "desc": "The armor makes two melee attacks."
+                    "desc": "The quaggoth makes two claw attacks."
                 },
                 {
-                    "label": "Slam",
-                    "action": "standard",
-                    "deco": "",
-                    "desc": "+4 vs. AC; 1d6 + 2 bludgeoning damage."
+                    "label": "Claw",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+4 to hit, reach 5 ft., one target.<br/>Hit: 6 (1d6 + 3) slashing damage."
                 }
             ],
-            "alignment": "Unaligned",
-            "languages": "-",
-            "str": 14,
-            "dex": 11,
-            "con": 13,
-            "wis": 3,
-            "int": 1,
-            "cha": 1
+            "section-reactions": [],
+            "legendary-actions": []
         }
     ]
 }

@@ -28,11 +28,9 @@ function UpdateNews(){
         $.each(data.monsters, function(i, item)
         {
             var $nouvelle = $('<li>');
-            $nouvelle.append(data.name);
+            $nouvelle.append(data.monsters[i].name);
             $sortie.append($nouvelle);            
         });
-
-
         $('#sortie-nouvelles').html($sortie);
     })
 }

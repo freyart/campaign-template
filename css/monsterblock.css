@@ -63,17 +63,21 @@
 .stat-block .property-line h4{
   color: #7A200D;
 }
+
+.stat-block .properties .property-line:first-child{
+  margin: 8px 0 0;
+}
+
+.stat-block .properties .property-line:last-child{
+  margin: 0 0 10px;
+}
+
 .stat-block .property-line{
   text-indent: -1em;
   padding-left: 1.1em;
   line-height: 1.4em;
 }
-.stat-block .property-line.first{
-  margin: 8px 0 0
-}
-.stat-block .property-line.last{
-  margin: 0 0 10px;
-}
+
 .stat-block .abilities{
   text-align: center;
   color: #922610;
