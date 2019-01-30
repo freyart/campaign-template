@@ -15,50 +15,26 @@ $(document).ready(function () {
         $("#sidebar").load("sidebar.html");
     })
 
-    FormJson();
     UpdateNews();
 });
 
 function UpdateNews(){
-    $.getJSON('news.json')
+    $.getJSON('stats.json')
     .fail(function() {
-        console.error('Fichier de news non disponible.')
+        console.error('Fichier de stats non disponible.')
     })
     .done(function(data) {
         var $sortie = $('<ol>');
-        $.each(data, function(i, item)
+        $.each(data.monsters, function(i, item)
         {
             var $nouvelle = $('<li>');
-            $nouvelle.append(data.message);
+            $nouvelle.append(data.name);
             $sortie.append($nouvelle);            
         });
 
 
         $('#sortie-nouvelles').html($sortie);
     })
-}
-
-function FormJson(){
-    var tests = [];
-    var testNews = new Object();
-    testNews.date = new Date(1900, 10, 12);
-    testNews.message = 'blablablabalbla';
-    tests.push(testNews);
-    testNews.date = new Date(2018, 07, 14);
-    testNews.message = 'fete a peri';
-    tests.push(testNews);
-
-    $.ajax
-    ({
-        type: "POST",
-        dataType : 'json',
-        async: false,
-        crossDomain: true,
-        url: hostName +'test.json',
-        data: JSON.stringify(tests),
-            success: function(){console.error('saved');},
-            failure: function(){console.error('failed save')}
-    });
 }
 
 /*
