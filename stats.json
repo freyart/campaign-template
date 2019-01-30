@@ -1,0 +1,61 @@
+{
+    "name": "Animated Armor",
+    "role": "Defender",
+    "keywords": "Medium Construct",
+    "challenge": "CR 1 (200 XP)",
+    "initiative": 0,
+    "perception": "-4; passive 6",
+    "armor": 18,
+    "armor-desc": "natural armor",
+    "speed": "25 ft.",
+    "hp": 33,
+    "hd": "6d8+6",
+    "section-head": [
+        {
+            "label": "Damage Immunities",
+            "text": "poison, psychic"
+        },
+        {
+            "label": "Condition Immunities",
+            "text": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned"
+        },
+        {
+            "label": "Senses",
+            "text": "blindsight 60ft. (blind beyond this radius)"
+        }
+    ],
+    "section-traits": [
+        {
+            "label": "Antimagic Susceptibility",
+            "deco": "",
+            "desc": "The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+        },
+        {
+            "label": "False Appearance",
+            "deco": "",
+            "desc": "While the armore remains motionless, it is indistinguishable from a normal suit of armor."
+        }
+    ],
+    "section-actions": [
+        {
+            "label": "Multiattack",
+            "action": "standard",
+            "deco": "",
+            "desc": "The armor makes two melee attacks."
+        },
+        {
+            "label": "Slam",
+            "action": "standard",
+            "deco": "",
+            "desc": "+4 vs. AC; 1d6 + 2 bludgeoning damage."
+        }
+    ],
+    "alignment": "Unaligned",
+    "languages": "-",
+    "str": 14,
+    "dex": 11,
+    "con": 13,
+    "wis": 3,
+    "int": 1,
+    "cha": 1
+}
