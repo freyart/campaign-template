@@ -1,92 +1,145 @@
 {
     "monsters": [
         {
-            "name": "Animated Armor",
-            "keywords": "Medium construct, unaligned",
-            "armor": "18 (natural armor)",
+            "name": "Cult Fanatic",
+            "keywords": "Medium humanoid (any race), any non-good alignment",
+            "armor": "13 (leather armor)",
             "hp": "33 (6d8 + 6)",
-            "speed": "25 ft.",
-            "str": 14,
-            "dex": 11,
-            "con": 13,
-            "int": 1,
-            "wis": 3,
-            "cha": 1,
-            "skills": "",
+            "speed": "30 ft.",
+            "str": 11,
+            "dex": 14,
+            "con": 12,
+            "int": 10,
+            "wis": 13,
+            "cha": 14,
+            "skills": "Deception +4, Persuasion +4, Religion +2",
             "saves": "",
             "resistances": "",
-            "dam-immunities": "poison, psychic",
-            "cond-immunities": "blinded, charmed, deafened, exhaustion, frightened, petrified, poisoned",
-            "senses": "blindsight 60ft. (blind beyond this radius), passive Perception 6",
-            "languages": "—",
-            "challenge": "1 (200 XP)",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "any one language (usually Common)",
+            "challenge": "2 (450 XP)",
             "section-traits": [
                 {
-                    "label": "Antimagic Suceptibility",
+                    "label": "Dark Devotion",
                     "deco": "",
-                    "desc": "The armor is incapacitated while in the area of an <i>antimagic field</i>. If targeted by <i>dispel magic</i>, the armor must succeed on a Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute."
+                    "desc": "The fanatic has advantage on saving throws against being charmed or frightened."
                 },
                 {
-                    "label": "False Appearance",
+                    "label": "Spellcasting",
                     "deco": "",
-                    "desc": "While the armor remains motionless, it is indistinguishable from a normal suit of armor."
+                    "desc": "The fanatic is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared:<br><br>Cantrips (at will): <i>light, sacred flame, thaumaturgy</i><br>1st level (4 slot): <i>command, inflict wounds, shield of faith</i><br>2nd level (3 slots): <i>hold person, spiritual weapon</i>"
                 }
             ],
             "section-actions": [
                 {
                     "label": "Multiattack",
                     "deco": "",
-                    "desc": "The armor makes two melee attacks."
+                    "desc": "The fanatic makes two melee attacks."
                 },
                 {
-                    "label": "Slam",
-                    "deco": "Melee Weapon Attack:",
-                    "desc": "+4 to hit, reach 5 ft., one target.<br/>Hit: 5 (1d6 + 2) bludgeoning damage."
+                    "label": "Dagger",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+4 to hit, reach 5 ft. or range 20/60 ft., one target.<br/>Hit: 4 (1d4 + 2) piercing damage."
                 }
             ],
             "section-reactions": [],
             "legendary-actions": []
         },
         {
-            "name": "Quaggoth",
-            "keywords": "Medium humanoid (quaggoth), chaotic neutral",
-            "armor": "13 (natural armor)",
-            "hp": "45 (6d8 + 18)",
-            "speed": "30 ft., climb 30 ft.",
-            "str": 17,
+            "name": "Druid",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "11 (16 with <i>barkskin</i>)",
+            "hp": "27 (5d8 + 5)",
+            "speed": "30 ft.",
+            "str": 10,
             "dex": 12,
-            "con": 16,
-            "int": 6,
-            "wis": 12,
-            "cha": 7,
-            "skills": "Athletics +5",
+            "con": 13,
+            "int": 12,
+            "wis": 15,
+            "cha": 11,
+            "skills": "Medicine +4, Nature +3, Perception +4",
             "saves": "",
             "resistances": "",
-            "dam-immunities": "poison",
-            "cond-immunities": "poisoned",
-            "senses": "darkvision 120 ft., passive Perception 10",
-            "languages": "—",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 14",
+            "languages": "Druidic plus any two languages",
             "challenge": "2 (450 XP)",
             "section-traits": [
                 {
-                    "label": "Wounded Fury",
+                    "label": "Spellcasting",
                     "deco": "",
-                    "desc": "While it has 10 hit points of fewer, the quaggoth has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee attack."
+                    "desc": "The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:<br><br>Cantrips (at will): <i>druidcraft, produce flame, shillelagh</i><br>1st level (4 slot): <i>entangle, longstrider, speak with animals, thunderwave</i><br>2nd level (3 slots): <i>animal messenger, barkskin</i>"
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Quarterstaff",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+2 to hit (+4 to hit with <i>shillelagh</i>), reach 5 ft., one target.<br/>Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage with <i>shillelagh</i> or if wielded with two hands."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Gladiator",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "16 (studded leather, shield)",
+            "hp": "112 (15d8 + 45)",
+            "speed": "30 ft.",
+            "str": 18,
+            "dex": 15,
+            "con": 16,
+            "int": 10,
+            "wis": 12,
+            "cha": 15,
+            "skills": "Athletics +10, Intimidation +5",
+            "saves": "Str +7, Dex +5, Con +6",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "any one language (usually Common)",
+            "challenge": "5 (1,800 XP)",
+            "section-traits": [
+                {
+                    "label": "Brave",
+                    "deco": "",
+                    "desc": "The gladiator has advantage on saving throws against being frightened."
+                },
+                {
+                    "label": "Brute",
+                    "deco": "",
+                    "desc": "A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack)."
                 }
             ],
             "section-actions": [
                 {
                     "label": "Multiattack",
                     "deco": "",
-                    "desc": "The quaggoth makes two claw attacks."
+                    "desc": "The gladiator makes three melee attacks or two ranged attacks."
                 },
                 {
-                    "label": "Claw",
+                    "label": "Spear",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+7 to hit, reach 5 ft, and range 20/60 ft., one target. <i>Hit:</i> (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack."
+                },
+                {
+                    "label": "Shield Bash",
                     "deco": "Melee Weapon Attack:",
-                    "desc": "+4 to hit, reach 5 ft., one target.<br/>Hit: 6 (1d6 + 3) slashing damage."
+                    "desc": "+7 to hit, reach 5 ft, one creature. <i>Hit:</i> (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed one a DC 15 Strength saving throw or be knocked prone."
                 }
             ],
-            "section-reactions": [],
+            "section-reactions": [
+                {
+                    "label": "Parry",
+                    "deco": "",
+                    "desc": "The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon."
+                }
+            ],
             "legendary-actions": []
         }
     ]
