@@ -19,7 +19,7 @@ $(document).ready(function () {
 });
 
 function UpdateNews(){
-    $.getJSON('stats.json')
+    $.getJSON('src/stats.json')
     .fail(function() {
         console.error('Fichier de stats non disponible.')
     })

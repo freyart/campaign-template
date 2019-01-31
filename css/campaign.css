@@ -110,3 +110,11 @@ div.liste-personnages.secondaires .row>div{
     clear: both;
     font-style: italic;
 }
+
+/* Pour le module ShowMore */
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
