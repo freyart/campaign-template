@@ -65,8 +65,8 @@ function GenererTopStats(leMonstre){
     $content.append(GenererAbilities(leMonstre));
     $content.append(AjouterSeparateur());
     $properties = $('<div>').addClass('properties');
-    AddPropIfAny("Skills", leMonstre.skills, $properties);
     AddPropIfAny("Saving Throws", leMonstre.saves, $properties);
+    AddPropIfAny("Skills", leMonstre.skills, $properties);
     AddPropIfAny("Damage Immunities", leMonstre['dam-immunities'], $properties);
     AddPropIfAny("Condition Immunities", leMonstre['cond-immunities'], $properties);
     AddPropIfAny("Senses", leMonstre.senses, $properties);
