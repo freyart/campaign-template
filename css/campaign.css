@@ -41,6 +41,7 @@ div.liste-personnages div.card {
 div.liste-personnages div.card blockquote {
     font-size: 1rem;
     text-align: right;
+    font-size: small;
     font-style: oblique;
     margin-bottom: 0;
 }
@@ -62,7 +63,7 @@ div.liste-personnages div.card-body {
 }
 
 div.liste-personnages div.card-picture{
-    max-height:12rem;
+    max-height: 12rem;
     overflow: hidden;
 }
 
@@ -77,7 +78,7 @@ div.liste-personnages .row>div{
 }
 
 div.liste-personnages.secondaires div.card-picture{
-    max-height:8rem;
+    max-height:18rem;
 }
 
 div.liste-personnages.secondaires .card-header{
