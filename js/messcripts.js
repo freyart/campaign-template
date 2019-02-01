@@ -1,12 +1,12 @@
 var hostName = 'https://freyart.github.io/campaign-template/'
 
 $(document).ready(function () {
-    $("[data-includeHTML]").each(function () {                
+    $("[data-includeHTML]").each(function () {
         $(this).load($(this).attr("data-includeHTML"));
     });
 
     $(document).ready(function () {
-        $("[data-goto]").click(function(){
+        $("[data-goto]").click(function () {
             $("#main").load($(this).attr("data-goto"));
         });
     });
@@ -18,54 +18,28 @@ $(document).ready(function () {
     UpdateNews();
 });
 
-function UpdateNews(){
-    $.getJSON('src/stats.json')
-    .fail(function() {
-        console.error('Fichier de stats non disponible.')
-    })
-    .done(function(data) {
-        var $sortie = $('<ol>');
-        $.each(data.monsters, function(i, item)
-        {
-            var $nouvelle = $('<li>');
-            $nouvelle.append(data.monsters[i].name);
-            $sortie.append($nouvelle);            
-        });
-        $('#sortie-nouvelles').html($sortie);
-    })
+function UpdateNews() {
+    $.getJSON('src/news.json')
+        .fail(function () {
+            console.error('Fichier de news non disponible.')
+        })
+        .done(function (data) {
+            var $sortie = $('<div>');
+            var sortedNews = data.news.sort(comp);
+            $.each(sortedNews, function (i, item) {
+                if (i < 5) {
+                    if (i > 0) {
+                        $sortie.append($('<hr>'));
+                    }
+                    var $nouvelle = $('<p>');
+                    $nouvelle.append(data.news[i].message);
+                    $sortie.append($nouvelle);
+                }
+            });
+            $('#sortie-nouvelles').append($sortie);
+        })
 }
 
-/*
-function updateResultsNumber(resultsNumber) {
-  $.getJSON('https://www.devmcgill.com/wp-json/wp/v2/units/?per_page=' + resultsNumber)
-    .fail(function() {
-      console.error('Chargement non effectué');
-    })
-    .done(function(data) {
-      var $units = $('<ol>');
-
-      data.forEach(function(element) {
-        var $unit = $('<li>');
-        var $link = $('<a>');
-
-        $link.attr('href', element.link).html(element.title.rendered);
-        $unit.append($link);
-        $units.append($unit);
-      });
-
-      $('#results-content').html($units);
-    });
+function comp(a, b) {
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
 }
-
-$(document).ready(function() {
-
-  $('form').on('submit', function(event) {
-    event.preventDefault();
-    updateResultsNumber($('#results-number').val());
-  });
-
-  updateResultsNumber($('#results-number').val());
-
-});
-
-*/
