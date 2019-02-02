@@ -13,11 +13,13 @@ body {
 .home-template {
     text-align: center;
     font-family: 'Alegreya SC', serif;
+}
+
+.parchemin {
     background-color: var(--main-flourish-color);
     border-color: var(--secondary-flourish-color);
     border-style: solid;
     border-width: 2px;
-    
 }
 
 #main {
@@ -118,4 +120,16 @@ div.liste-personnages.secondaires .row>div{
 }
 .morelink {
     display: block;
+}
+
+/* News */
+.news-block {
+    font-size: small;
+    margin-bottom: 0.5rem;;
+}
+
+.news-date {
+    font-size: medium;
+    padding-left: 5px;
+    background-color:var(--main-flourish-color);
 }
