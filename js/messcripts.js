@@ -13,7 +13,9 @@ $(document).ready(function () {
 
     $(document).ready(function () {
         $("#sidebar").load("sidebar.html");
+        $("#sidebardm").load("sidebardm.html");
     })
+    
 
     UpdateNews();
 });

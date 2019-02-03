@@ -899,6 +899,69 @@
             ],
             "section-reactions": [],
             "legendary-actions": []
+        },
+        {
+            "name": "Shifter Thief",
+            "keywords": "Medium humanoid (shifter)",
+            "armor": "15 (studded)",
+            "hp": "30 (5d8 + 8)",
+            "speed": "35 ft.",
+            "str": 12,
+            "dex": 17,
+            "con": 12,
+            "int": 12,
+            "wis": 13,
+            "cha": 11,
+            "skills": "Acrobatics +7, Athletics +3, Sleight of Hand +5, Stealth +7, Perception +3",
+            "saves": "Dex +5",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "Common",
+            "challenge": "1 (200 XP)",
+            "section-traits": [
+                {
+                    "label": "Second-Story Work",
+                    "deco": "",
+                    "desc": "Climbing costs no extra movement. In addition, the thief can jump 15ft when making a long jump."
+                },
+                {
+                    "label": "Sneak attack (1/Turn)",
+                    "deco": "",
+                    "desc": "The assassin deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll."
+                },
+                {
+                    "label": "Cunning Action",
+                    "deco": "",
+                    "desc": "On each of its turns, the thief can use a bonus action to take the Dash, Disengage, or Hide action."
+                },
+                {
+                    "label": "Swiftstride Shifting",
+                    "deco": "",
+                    "desc": "Once per rest as a bonus action, the shifter thief gains 5 temporary hit points and also its speed goes up to 40ft for 1 minute."
+                }                
+            ],
+            "section-actions": [
+                {
+                    "label": "Shortsword",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+5 to hit, reach 5 ft, one target. <i>Hit:</i> 6 (1d6 + 3) piercing damage."
+                },
+                {
+                    "label": "Hand Crossbow",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+5 to hit, range 30/120 ft., one target. <i>Hit:</i> 6 (1d6 + 3) piercing damage."
+                }
+            ],
+            "section-reactions": [
+                {
+                    "label": "Swiftstride",
+                    "deco": "(only while shifting)",
+                    "desc": "When an ennemy ends its turn within 5 feet of the thief, the thief can move up to 10 feet as a reaction. This movement doesn't provoke opportunity attacks."
+                }
+            ],
+            "legendary-actions": []
         }
     ]
 }
