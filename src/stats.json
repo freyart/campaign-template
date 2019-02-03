@@ -1,7 +1,54 @@
 {
+    "categories": [
+        {
+            "name": "Arcane",
+            "label": "Arcane"
+        },
+        {
+            "name": "Archery",
+            "label": "Archery"
+        },
+        {
+            "name": "Crime",
+            "label": "Crime"
+        },
+        {
+            "name": "DarkArts",
+            "label": "Dark Arts"
+        },
+        {
+            "name": "Holy",
+            "label": "Holy"
+        },
+        {
+            "name": "Martial",
+            "label": "Martial"
+        },
+        {
+            "name": "Monastic",
+            "label": "Monastic"
+        },
+        {
+            "name": "Seafaring",
+            "label": "Seafaring"
+        },
+        {
+            "name": "Unholy",
+            "label": "Unholy"
+        },
+        {
+            "name": "Urban",
+            "label": "Urban"
+        },
+        {
+            "name": "Wilderness",
+            "label": "Wilderness"
+        }
+    ],
     "monsters": [
         {
             "name": "Assassin",
+            "category": "Crime",
             "keywords": "Medium humanoid (any race), any non-good alignment)",
             "armor": "15 (studded leather)",
             "hp": "78 (12d8 + 24)",
@@ -59,6 +106,7 @@
         },
         {
             "name": "Acolyte",
+            "category": "Holy",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "10",
             "hp": "9 (2d8)",
@@ -96,6 +144,7 @@
         },
         {
             "name": "Archmage",
+            "category": "Arcane",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "12 (15 with mage armor)",
             "hp": "99 (18d8 + 18)",
@@ -138,6 +187,7 @@
         },
         {
             "name": "Bandit",
+            "category": "Crime",
             "keywords": "Medium humanoid (any race), any non-lawful alignment",
             "armor": "12 (leather armor)",
             "hp": "11 (2d8 + 2)",
@@ -174,6 +224,7 @@
         },
         {
             "name": "Bandit Captain",
+            "category": "Crime",
             "keywords": "Medium humanoid (any race), any non-lawful alignment",
             "armor": "15 (studded leather)",
             "hp": "65 (10d8 + 20)",
@@ -221,6 +272,7 @@
         },
         {
             "name": "Berserker",
+            "category": "Wilderness",
             "keywords": "Medium humanoid (any race), any chaotic alignment",
             "armor": "13 (hide armor)",
             "hp": "67 (9d8 + 27)",
@@ -258,6 +310,7 @@
         },
         {
             "name": "Commoner",
+            "category": "Urban",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "10",
             "hp": "4 (1d8)",
@@ -289,6 +342,7 @@
         },
         {
             "name": "Cultist",
+            "category": "Unholy",
             "keywords": "Medium humanoid (any race), any non-good alignment",
             "armor": "12 (leather armor)",
             "hp": "9 (2d8)",
@@ -324,8 +378,9 @@
             "section-reactions": [],
             "legendary-actions": []
         },
-		{
+        {
             "name": "Cult Fanatic",
+            "category": "Unholy",
             "keywords": "Medium humanoid (any race), any non-good alignment",
             "armor": "13 (leather armor)",
             "hp": "33 (6d8 + 6)",
@@ -373,6 +428,7 @@
         },
         {
             "name": "Druid",
+            "category": "Wilderness",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "11 (16 with <i>barkskin</i>)",
             "hp": "27 (5d8 + 5)",
@@ -410,6 +466,7 @@
         },
         {
             "name": "Gladiator",
+            "category": "Martial",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "16 (studded leather, shield)",
             "hp": "112 (15d8 + 45)",
@@ -468,6 +525,7 @@
         },
         {
             "name": "Guard",
+            "category": "Urban",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "16 (chain shirt, shield)",
             "hp": "11 (2d8 + 2)",
@@ -499,6 +557,7 @@
         },
         {
             "name": "Knight",
+            "category": "Martial",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "18 (plate)",
             "hp": "52 (8d8 + 16)",
@@ -557,6 +616,7 @@
         },
         {
             "name": "Mage",
+            "category": "Arcane",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "12 (15 with <i>mage armor</i>)",
             "hp": "40 (9d8)",
@@ -594,6 +654,7 @@
         },
         {
             "name": "Noble",
+            "category": "Urban",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "15 (breastplate)",
             "hp": "9 (2d8)",
@@ -631,6 +692,7 @@
         },
         {
             "name": "Priest",
+            "category": "Holy",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "13 (chain shirt)",
             "hp": "27 (5d8 + 5)",
@@ -673,6 +735,7 @@
         },
         {
             "name": "Scout",
+            "category": "Archery",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "13 (leather armor)",
             "hp": "16 (3d8 + 3)",
@@ -720,6 +783,7 @@
         },
         {
             "name": "Spy",
+            "category": "Crime",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "12",
             "hp": "27 (6d8)",
@@ -772,6 +836,7 @@
         },
         {
             "name": "Thug",
+            "category": "Crime",
             "keywords": "Medium humanoid (any race), any non-good alignment",
             "armor": "11 (leather armor)",
             "hp": "32 (5d8 + 10)",
@@ -819,6 +884,7 @@
         },
         {
             "name": "Tribal Warrior",
+            "category": "Wilderness",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "12 (hide armor)",
             "hp": "11 (2d8 + 2)",
@@ -856,6 +922,7 @@
         },
         {
             "name": "Veteran",
+            "category": "Martial",
             "keywords": "Medium humanoid (any race), any alignment",
             "armor": "17 (splint)",
             "hp": "58 (9d8 + 18)",
@@ -898,69 +965,6 @@
                 }
             ],
             "section-reactions": [],
-            "legendary-actions": []
-        },
-        {
-            "name": "Shifter Thief",
-            "keywords": "Medium humanoid (shifter)",
-            "armor": "15 (studded)",
-            "hp": "30 (5d8 + 8)",
-            "speed": "35 ft.",
-            "str": 12,
-            "dex": 17,
-            "con": 12,
-            "int": 12,
-            "wis": 13,
-            "cha": 11,
-            "skills": "Acrobatics +7, Athletics +3, Sleight of Hand +5, Stealth +7, Perception +3",
-            "saves": "Dex +5",
-            "resistances": "",
-            "dam-immunities": "",
-            "cond-immunities": "",
-            "senses": "passive Perception 13",
-            "languages": "Common",
-            "challenge": "1 (200 XP)",
-            "section-traits": [
-                {
-                    "label": "Second-Story Work",
-                    "deco": "",
-                    "desc": "Climbing costs no extra movement. In addition, the thief can jump 15ft when making a long jump."
-                },
-                {
-                    "label": "Sneak attack (1/Turn)",
-                    "deco": "",
-                    "desc": "The assassin deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll."
-                },
-                {
-                    "label": "Cunning Action",
-                    "deco": "",
-                    "desc": "On each of its turns, the thief can use a bonus action to take the Dash, Disengage, or Hide action."
-                },
-                {
-                    "label": "Swiftstride Shifting",
-                    "deco": "",
-                    "desc": "Once per rest as a bonus action, the shifter thief gains 5 temporary hit points and also its speed goes up to 40ft for 1 minute."
-                }                
-            ],
-            "section-actions": [
-                {
-                    "label": "Shortsword",
-                    "deco": "Melee Weapon Attack:",
-                    "desc": "+5 to hit, reach 5 ft, one target. <i>Hit:</i> 6 (1d6 + 3) piercing damage."
-                },
-                {
-                    "label": "Hand Crossbow",
-                    "deco": "Ranged Weapon Attack:",
-                    "desc": "+5 to hit, range 30/120 ft., one target. <i>Hit:</i> 6 (1d6 + 3) piercing damage."
-                }
-            ],
-            "section-reactions": [
-                {
-                    "label": "Swiftstride",
-                    "deco": "(only while shifting)",
-                    "desc": "When an ennemy ends its turn within 5 feet of the thief, the thief can move up to 10 feet as a reaction. This movement doesn't provoke opportunity attacks."
-                }
-            ],
             "legendary-actions": []
         }
     ]

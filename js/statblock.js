@@ -1,7 +1,7 @@
-$(document).ready(function(){
+/* $(document).ready(function(){
 	UpdateStatblock();
 });
-
+ */
 
 function UpdateStatblock(){
     $.getJSON('src/stats.json')
@@ -9,7 +9,6 @@ function UpdateStatblock(){
         console.error('Fichier de stats non disponible.');
     })
     .done(function(data) {
-        var $sortie = $('<ol>');
         $.each(data.monsters, function(i, item)
         {
             $('#bestiaire').append(GenererFiche(data.monsters[i]));   
