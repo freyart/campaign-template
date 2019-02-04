@@ -7,6 +7,10 @@
         {
             "date": "2019-02-01T23:52:06.419Z",
             "message": "Ajout des descriptions des figures importantes du setting (sous la section 'Les Personnages'). De plus courte descriptions des territoires dans 'le monde'.<br>Aussi, les stats des shifters et warforged sont sous 'la partie'."
+        },
+        {
+            "date": "2019-02-04T15:44:06.419Z",
+            "message": "Update des descriptions des personnages importants."
         }
     ]
 }
