@@ -36,11 +36,11 @@ h1 {
 
 /* Pour l'affichage des listes de personnages */
 
-div.liste-personnages div.card {
+.liste-personnages div.card {
     margin-top: 1rem;
 }
 
-div.liste-personnages div.card blockquote {
+.liste-personnages div.card blockquote {
     font-size: 1rem;
     text-align: right;
     font-size: small;
@@ -48,49 +48,49 @@ div.liste-personnages div.card blockquote {
     margin-bottom: 0;
 }
 
-div.liste-personnages blockquote::before {
+.liste-personnages blockquote::before {
     content: "\2013\00a0\201C";
 }
 
-div.liste-personnages blockquote::after {
+.liste-personnages blockquote::after {
     content: "\201D";
 }
 
-div.liste-personnages .card-title{
+.liste-personnages .card-title{
     margin-bottom:0;
 }
 
-div.liste-personnages div.card-body {
+.liste-personnages div.card-body {
     padding: 10px;
 }
 
-div.liste-personnages div.card-picture{
+.liste-personnages div.card-picture{
     max-height: 12rem;
     overflow: hidden;
 }
 
-div.liste-personnages img {
+.liste-personnages img {
     max-width: 100%;
     max-height: 100%;
 }
 
-div.liste-personnages .row>div{
+.liste-personnages .row>div{
     padding-right: 0.5rem;
     padding-left: 0.5rem;
 }
 
-div.liste-personnages.secondaires div.card-picture{
+.liste-personnages.secondaires div.card-picture{
     max-height:18rem;
 }
 
-div.liste-personnages.secondaires .card-header{
+.liste-personnages.secondaires .card-header{
     padding: 5px;
 }
-div.liste-personnages.secondaires h5{
+.liste-personnages.secondaires h5{
     font-size: large;
 }
 
-div.liste-personnages.secondaires .row>div{
+.liste-personnages.secondaires .row>div{
     padding-right: 5px;
     padding-left: 5px;
 }
@@ -133,3 +133,73 @@ div.liste-personnages.secondaires .row>div{
     padding-left: 5px;
     background-color:var(--main-flourish-color);
 }
+
+/* Pour les images de la gallerie de personnages */
+.liste-personnages .card-img-top {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.liste-personnages .card-img-top:hover {
+    opacity: 0.7;
+}
+
+/* The Modal */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+#modal-caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  .modal-content, #modal-caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }

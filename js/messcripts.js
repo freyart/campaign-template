@@ -1,23 +1,22 @@
 var hostName = 'https://freyart.github.io/campaign-template/'
 
 $(document).ready(function () {
-    $("[data-includeHTML]").each(function () {
-        $(this).load($(this).attr("data-includeHTML"));
-    });
-
-    $(document).ready(function () {
-        $("[data-goto]").click(function () {
-            $("#main").load($(this).attr("data-goto"));
-        });
-    });
-
+    UpdateNews();
+    
     $(document).ready(function () {
         $("#sidebar").load("sidebar.html");
         $("#sidebardm").load("sidebardm.html");
     })
     
-
-    UpdateNews();
+    /* Pour les galleries de npcs */
+    $(".card-img-top").on('click', function (event) {
+        $('#viewerModal').css('display','block');
+        $('#imgModal').attr('src', this.src);
+        $('#modal-caption').text(this.alt);
+    })
+    $(".close").on('click', function (event) {
+        $('#viewerModal').css('display','none');
+    })
 });
 
 function UpdateNews() {
@@ -47,6 +46,5 @@ function comp(a, b) {
 function PrintDate(d){
     var dt = new Date(d);
     var dateString =  dt.getFullYear() + "/" + ("0"+(dt.getMonth()+1)).slice(-2) + "/" + ("0" + dt.getDate()).slice(-2);
-    /* dateString = dateString + " " + ("0" + dt.getHours()).slice(-2) + ":" + ("0" + dt.getMinutes()).slice(-2); */
     return dateString;
 }
