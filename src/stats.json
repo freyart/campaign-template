@@ -966,6 +966,423 @@
             ],
             "section-reactions": [],
             "legendary-actions": []
+        },
+        {
+            "name": "Abjurer",
+            "category": "Arcane",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "12 (15 with <i>mage armor</i>)",
+            "hp": "84 (13d8 + 26)",
+            "speed": "30 ft.",
+            "str": 9,
+            "dex": 14,
+            "con": 14,
+            "int": 18,
+            "wis": 12,
+            "cha": 11,
+            "skills": "Arcana +8, History +8",
+            "saves": "Int +8, Wis +5",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "any four languages",
+            "challenge": "9 (5,000 XP)",
+            "section-traits": [
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The abjurer has the following wizard spells prepared:<br><br>Cantrips (at will): <i>blade ward, mending, message, ray of frost</i><br>1st level (4 slots): <i>alarm*, mage armor*, magic missile, shield*</i><br>2nd level (3 slots): <i>arcane lock*, invisibility</i><br>3rd level (3 slots): <i>counterspell*, dispel magic*, fireball</i><br>4rd level (3 slots): <i>banishment*, stoneskin*</i><br>5rd level (2 slots): <i>cone of cold, wall of force</i><br>6rd level (1 slot): <i>flesh to stone, globe of invulnerability*</i><br>7rd level (1 slot): <i>symbol*, teleport</i><br>*Abjuration spell of 1st level or higher."
+                },
+                {
+                    "label": "Arcane Ward",
+                    "deco": "",
+                    "desc": "The abjurer has a magical ward that has 30 hit points. Whenever the abjurer takes damage. The ward takes damage instead. If the ward is reduced to 0 hit points, the abjurer takes any remaining damage. When the abjurer casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Quarterstaff",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+3 to hit, reach 5 ft, one target. <i>Hit:</i> 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Apprentice Wizard",
+            "category": "Arcane",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "10",
+            "hp": "9 (2d8)",
+            "speed": "30 ft.",
+            "str": 10,
+            "dex": 10,
+            "con": 10,
+            "int": 14,
+            "wis": 10,
+            "cha": 11,
+            "skills": "Arcana +4, History +4",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "any one language (usually Common)",
+            "challenge": "1/4 (50 XP)",
+            "section-traits": [
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The apprentice is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The apprentice has the following wizard spells prepared:<br><br>Cantrips (at will): <i>fire bolt, mending, prestidigitation</i><br>1st level (2 slots): <i>burning hands, disguise self, shield."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Dagger",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+2 to hit, reach 5 ft. or range 20/60 ft., one target. <i>Hit:</i> 2 (1d4) piercing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Archdruid",
+            "category": "Wilderness",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "16 (hide armor, shield)",
+            "hp": "132 (24d8 + 24)",
+            "speed": "30 ft.",
+            "str": 10,
+            "dex": 14,
+            "con": 12,
+            "int": 12,
+            "wis": 20,
+            "cha": 11,
+            "skills": "Medicine +9, Nature +5, Perception +9",
+            "saves": "Int +5, Wis +9",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 19",
+            "languages": "Druidic plus any two languages",
+            "challenge": "12 (8,400 XP)",
+            "section-traits": [
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The archdruid is a 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following druid spells prepared:<br><br>Cantrips (at will): <i>druidcraft, mending, poison spray, produce flame</i><br>1st level (4 slots): <i>cure wounds, entangle, faerie fire, speak with animals</i><br>2nd level (3 slots): <i>animal messenger, beast sense, hold person</i><br>3rd level (3 slots): <i>conjure animals, meld into stone, water breathing</i><br>4rd level (3 slots): <i>dominage beast, locate creature, stoneskin, wall of fire</i><br>5rd level (3 slots): <i>commune with nature, mass cure wounds, tree stride</i><br>6rd level (1 slot): <i>heal, heroes'feast, sunbeam</i><br>7rd level (1 slot): <i>fire storm</i><br>8th level (1 slot): <i>animal shapes</i><br>9th level (1 slot): <i>foresight</i>"
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Scimitar",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+6 to hit, reach 5 ft, one target. <i>Hit:</i> 5 (1d6 + 2) slashing damage."
+                },
+                {
+                    "label": "Change Shape (2/Day)",
+                    "deco": "",
+                    "desc": "The archdruid magically polymorphs into a beast or elemental with a challenge rating of 6 or less, and can remain in this form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls unconscious. The archdruid can revert to its true form using a bonus action on its turn.<br>While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form.<br>The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Archer",
+            "category": "Archery",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "16 (studded leather)",
+            "hp": "75 (10d8 + 30)",
+            "speed": "30 ft.",
+            "str": 11,
+            "dex": 18,
+            "con": 16,
+            "int": 11,
+            "wis": 13,
+            "cha": 10,
+            "skills": "Acrobatics +6, Perception +5",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 15",
+            "languages": "any one language (usually Common)",
+            "challenge": "3 (700 XP)",
+            "section-traits": [
+                {
+                    "label": "Archer's Eye (3/Day)",
+                    "deco": "",
+                    "desc": "As a bonus action, the archer can add 1d10 to its next attack or damage roll with a longbow or shortbow."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "The archer makes two attacks with its longbow."
+                },
+                {
+                    "label": "Shortsword",
+                    "deco": "",
+                    "desc": "+6 to hit, reach 5 ft, one target. <i>Hit:</i> 7 (1d6 + 4) piercing damage."
+                },
+                {
+                    "label": "Longbow",
+                    "deco": "",
+                    "desc": "+6 to hit, range 150/600 ft., one target. <i>Hit:</i> 8 (1d8 + 4) piercing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Bard",
+            "category": "Urban",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "15 (chain shirt)",
+            "hp": "44 (8d8 + 8)",
+            "speed": "30 ft.",
+            "str": 11,
+            "dex": 14,
+            "con": 12,
+            "int": 10,
+            "wis": 13,
+            "cha": 14,
+            "skills": "Acrobatics +4, Perception +5, Performance +6",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 15",
+            "languages": "any two languages",
+            "challenge": "2 (450 XP)",
+            "section-traits": [
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:<br><br>Cantrips (at will): <i>friends, mage hand, vicious mockery</i><br>1st level (4 slots): <i>charm person, healing word, heroism, sleep, thunderwave<br>2nd level (3 slots): <i>invisibility, shatter</i>"
+                },
+                {
+                    "label": "Song of Rest",
+                    "deco": "",
+                    "desc": "The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra 1d6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well."
+                },
+                {
+                    "label": "Taunt (2/Day)",
+                    "deco": "",
+                    "desc": "The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Shortsword",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+4 to hit, reach 5 ft, one target. <i>Hit:</i> 5 (1d6 + 2) piercing damage."
+                },
+                {
+                    "label": "Shortbow",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+4 to hit, range 80/320 ft., one target. <i>Hit:</i> 5 (1d6 + 2) piercing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Blackguard",
+            "category": "Unholy",
+            "keywords": "Medium humanoid (any race), any non-good alignment",
+            "armor": "18 (plate)",
+            "hp": "153 (18d8 + 72)",
+            "speed": "30 ft.",
+            "str": 18,
+            "dex": 11,
+            "con": 18,
+            "int": 11,
+            "wis": 14,
+            "cha": 15,
+            "skills": "Acrobatics +7, Deception +5, Intimidation +5",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 12",
+            "languages": "any one language (usually Common)",
+            "challenge": "8 (3,900 XP)",
+            "section-traits": [
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The blackguard is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It has the following paladin spells prepared:<br><br>1st level (4 slots): <i>command, protection from evil and good, thunderous smite</i><br>2nd level (3 slots): <i>branding smite, find steed</i><br>3rd level (2 slots):<i>blinding smite, dispel magic</i>"
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The blackguard makes three attacks with its glaive or its shortbow."
+                },
+                {
+                    "label": "Glaive",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+7 to hit, reach 10ft., one target. <i>Hit:</i> 9 (1d10 + 4) slashing damage."
+                },
+                {
+                    "label": "Shortbow",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+3 to hit, range 80/320 ft., one target. <i>Hit:</i> 5 (1d6 + 2) piercing damage."
+                },
+                {
+                    "label": "Dreadful Aspect (Recharges after a Rest)",
+                    "deco": "",
+                    "desc": "The blackguard exudes magical menace. Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If a frightened target ends its turn more than 30 feet away from the blackguard, the target can repeat the saving throw, ending the effect on itself on a success."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Champion",
+            "category": "Martial",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "18 (plate)",
+            "hp": "143 (22d8 + 44)",
+            "speed": "30 ft.",
+            "str": 20,
+            "dex": 15,
+            "con": 14,
+            "int": 10,
+            "wis": 14,
+            "cha": 12,
+            "skills": "Athletics +9, Intimidation +5, Perception +6",
+            "saves": "Str +9, Con +6",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 16",
+            "languages": "any one language (usually Common)",
+            "challenge": "9 (5,000 XP)",
+            "section-traits": [
+                {
+                    "label": "Indomitable (2/Day)",
+                    "deco": "",
+                    "desc": "The champion rerolls a failed saving throw."
+                },
+                {
+                    "label": "Second Wind (Recharge after a Short or Long Rest)",
+                    "deco": "",
+                    "desc": "As a bonus action, the champion can regain 20 hit points."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The champion makes three attacks with its greatsword or its shortbow."
+                },
+                {
+                    "label": "Greatsword",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+9 to hit, reach 5ft., one target. <i>Hit:</i> 12 (2d6 + 5) slashing damage, plus 7 (2d6) slashing damage if the champion has more than half of its total hit points remaining."
+                },
+                {
+                    "label": "Light Crossbow",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+6 to hit, range 80/320 ft., one target. <i>Hit:</i> 5 (1d8 + 2) piercing damage, plus (2d6) piercing damage if the champion has more than half of its total hit points remaining."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Conjurer",
+            "category": "Arcane",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "12 (15 with <i>mage armor</i>)",
+            "hp": "40 (9d8)",
+            "speed": "30 ft.",
+            "str": 9,
+            "dex": 14,
+            "con": 11,
+            "int": 17,
+            "wis": 12,
+            "cha": 11,
+            "skills": "Arcana +6, History +6",
+            "saves": "Int +6, Wis +4",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "any four languages",
+            "challenge": "6 (2,300 XP)",
+            "section-traits": [
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The conjurer is an 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The conjurer has the following wizard spells prepared:<br><br>Cantrips (at will): <i>acid splash, mage hand, poison spray, prestidigitation</i><br>1st level (4 slots): <i>mage armor, magic missile, unseen servant*</i><br>2nd level (3 slots): <i>cloud of daggers*, misty step*, web*</i><br>3rd level (3 slots): <i>fireball, stinking cloud*</i><br>4th level (3 slots): <i>Evard's black tentacles*, stoneskin</i><br>5th level (2 slots): <i>cloudkill*, conjure elemental*</i><br>*Conjuration spell of 1st level or higher."
+                },
+                {
+                    "label": "Benign Transportation (Recharges after the Conjurer Casts a Conjuration Spell of 1st Level or Higher)",
+                    "deco": "",
+                    "desc": "As a bonus action, the conjurer teleports up to 30 feet to an unoccupied space that it can see. If it instead chooses a space within range that is occupied by a willing Small or Medium creature, they both teleport swapping places."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Dagger",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+5 to hit, reach 5 ft. or range 20/60 ft., one target. <i>Hit:</i> 4 (1d4 + 2) piercing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Diviner",
+            "category": "Arcane",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "12 (15 with <i>mage armor</i>)",
+            "hp": "67 (15d8)",
+            "speed": "30 ft.",
+            "str": 9,
+            "dex": 14,
+            "con": 11,
+            "int": 18,
+            "wis": 12,
+            "cha": 11,
+            "skills": "Arcana +7, History +7",
+            "saves": "Int +7, Wis +4",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "any four languages",
+            "challenge": "8 (3,900 XP)",
+            "section-traits": [
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The diviner is a 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). It has the following wizard spells prepared:<br><br>Cantrips (at will): <i>fire bolt, light, mage hand, message, true strike</i><br>1st level (4 slots): <i>detect magic*, feather fall, mage armor<br>2nd level (3 slots): <i>detect thoughts*, locate object*, scorching ray</i><br>3rd level (3 slots): <i>clairvoyance*, fly, fireball</i><br>4th level (3 slots): <i>arcane eye*, ice storm, stoneskin</i><br>5th level (2 slots): <i>Rary's telepathic bond*, scrying*</i><br>6th level (1 slots): <i>mass suggestion, true seeing*</i><br>7th level (1 slots): <i>delayed blast fireball, teleport</i><br>8th level (1 slots): <i>maze</i><br>*Divination spell of 1st level or higher."
+                },
+                {
+                    "label": "Portent (Recharges after the Diviner Casts a Divination Spell of 1st level or Higher",
+                    "deco": "",
+                    "desc": "When the diviner or a creature it can see makes an attack roll, a saving throw, or an ability check, the diviner can roll a d20 and choose to use this roll in place of the attack roll, saving throw, or ability check."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Quarterstaff",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+2 to hit, reach 5 ft, one target. <i>Hit:</i> 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
         }
     ]
 }
