@@ -12,32 +12,23 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="css/sidebar.css" rel="stylesheet">
     <link href="css/campaign.css" rel="stylesheet">
     <link href="css/monsterblock.css" rel="stylesheet">
     <title>Codex Monstrum</title>
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div id="sidebardm" class="nav-side-menu"></div>
+    <div class="container-fluid" id="main">
         <div class="row">
-            <div class="col">
-                <table id="tbListeMonstres" class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Category</th>
-                            <th>CR</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                </table>
-            </div>
-            <div class="col" id="monsterblock" style="min-width: 380px; max-width: 550px;">
+            <div class="col-xl-4">
+                <h2 style="text-align: center">Catégories</h2>
+                <ol id="list-categories">
 
+                </ol>
             </div>
-        </row>
+        </div>
     </div>
 
     <!-- Section de scripts -->
@@ -46,9 +37,8 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="js/messcripts.js"></script>
     <script src="js/statblock.js"></script>
     <script src="js/codexmonstrum.js"></script>
 </body>
-
 </html>

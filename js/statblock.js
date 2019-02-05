@@ -17,7 +17,6 @@ function UpdateStatblock(){
 }
 
 function GenererFiche(leMonstre) {
-    $carteBS = $('<div></div>').addClass('col-xl-4 p-0');
     $statblock = $('<div></div>').addClass('stat-block');
     $statblock.append(GenererHead(leMonstre));
     $statblock.append(AjouterSeparateur());
@@ -42,8 +41,7 @@ function GenererFiche(leMonstre) {
         GenererTraits(leMonstre['legendary-actions'], $bloc);
         $statblock.append($bloc);
     }
-    $carteBS.append($statblock);
-    return $carteBS;
+    return $statblock;
 }
 
 function GenererHead(leMonstre){
