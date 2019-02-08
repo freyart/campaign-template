@@ -1853,6 +1853,369 @@
                 }
             ],
             "legendary-actions": []
+        },
+        {
+            "name": "Heterodox Priest",
+            "category": "Holy",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "15 (breastplate)",
+            "hp": "91 (14d8 + 28)",
+            "speed": "30 ft.",
+            "str": 16,
+            "dex": 12,
+            "con": 14,
+            "int": 13,
+            "wis": 16,
+            "cha": 14,
+            "skills": "Religion +4",
+            "saves": "Wis +6",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "any three languages",
+            "challenge": "5 (1,800 XP)",
+            "section-traits": [
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The heterodox priest is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The heterodox priest has the following cleric spells prepared:<br><br>Cantrip (at will): <i>guidance, sacred flame, thaumaturgy</i><br>1st level (4 slots): <i>command, inflict wounds, cure wounds</i><br>2nd level (3 slots): <i>augury, hold person, spiritual weapon</i><br>3rd level (3 slots): <i>bestow curse, speak with dead, sending</i><br>4th level (3 slots): <i>divination, freedom of movement, locate creature</i><br>5th level (2 slots): <i>flame strike, mass cure wounds</i>"
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The heterodox priest makes two weapon attacks."
+                },
+                {
+                    "label": "Dagger",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+6 to hit, reach 5ft. or range 20/60 ft., one target. <i>Hit: </i>5 (1d4 + 3) piercing damage."
+                },
+                {
+                    "label": "Morningstar",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+6 to hit, reach 5 ft, one target. <i>Hit:</i> 7 (1d8 + 3) bludgeoning damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Honor-Bound Fighter",
+            "category": "Martial",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "17 (splint)",
+            "hp": "78 (12d8 + 24)",
+            "speed": "30 ft.",
+            "str": 16,
+            "dex": 14,
+            "con": 15,
+            "int": 13,
+            "wis": 15,
+            "cha": 14,
+            "skills": "Athletics +6",
+            "saves": "Cha +5, Str +6, Wis +5",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 12",
+            "languages": "any one language (usually Common)",
+            "challenge": "5 (1,800 XP)",
+            "section-traits": [
+                {
+                    "label": "Death Before Dishonor",
+                    "deco": "",
+                    "desc": "The honor-bound fighter has advantage on saving throws against being charmed or frightened."
+                },
+                {
+                    "label": "Still Standing",
+                    "deco": "",
+                    "desc": "While it has 20 hit points or fewer, the fighter has advantage on attack rolls."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The fighter makes three weapon attacks."
+                },
+                {
+                    "label": "Greatsword",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+6 to hit, reach 5ft., one target. <i>Hit: </i>10 (2d6 + 3) slashing damage."
+                },
+                {
+                    "label": "Longbow",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+6 to hit, range 150/600 ft., one target. <i>Hit:</i> 7 (1d8 + 3) piercing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Inquisitor",
+            "category": "Holy",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "16 (studded leather)",
+            "hp": "104 (16d8 + 32)",
+            "speed": "30 ft.",
+            "str": 14,
+            "dex": 18,
+            "con": 14,
+            "int": 15,
+            "wis": 16,
+            "cha": 14,
+            "skills": "Insight +6, Intimidation +5, Investigation +5, Perception +6",
+            "saves": "Wis +6",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 16",
+            "languages": "any two languages",
+            "challenge": "5 (1,800 XP)",
+            "section-traits": [
+                {
+                    "label": "Stern Resolve",
+                    "deco": "",
+                    "desc": "The inquisitor has advantage on saving throws against being charmed or frightened."
+                },
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The heterodox priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The inquisitor has the following cleric spells prepared:<br><br>Cantrip (at will): <i>guidance, thaumaturgy</i><br>1st level (4 slots): <i>bane, detect evil and good, protection from evil and good</i><br>2nd level (3 slots): <i>hold person, lesser restoration, zone of truth</i><br>3rd level (2 slots): <i>dispel magic, remove curse</i>"
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The inquisitor makes three melee attacks or two ranged attacks. The inquisitor ignores the loading quality on the hand crossbow."
+                },
+                {
+                    "label": "Hand Crossbow",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+7 to hit, reach 5ft. or range 30/120 ft., one target. <i>Hit: </i>7 (1d6 + 4) piercing damage, plus 3 (1d6) fire damage."
+                },
+                {
+                    "label": "Dagger",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+7 to hit, reach 5ft. or range 20/60 ft., one target. <i>Hit: </i>6 (1d4 + 4) piercing damage."
+                },
+                {
+                    "label": "Rapier",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+7 to hit, reach 5ft. one target. <i>Hit: </i>6 (1d8 + 4) piercing damage."
+                }
+            ],
+            "section-reactions": [
+                {
+                    "label": "Parry",
+                    "deco": "",
+                    "desc": "The inquisitor adds +3 AC against one melee attack that would hit it. To do so, the inquisitor must see the attacker and be wielding a melee weapon."
+                }
+            ],
+            "legendary-actions": []
+        },
+        {
+            "name": "Journeyman Mage",
+            "category": "Arcane",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "12 (15 with <i>mage armor</i>)",
+            "hp": "31 (7d8)",
+            "speed": "30 ft.",
+            "str": 10,
+            "dex": 14,
+            "con": 11,
+            "int": 16,
+            "wis": 12,
+            "cha": 11,
+            "skills": "Arcana +5",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "any three languages",
+            "challenge": "3 (700 XP)",
+            "section-traits": [
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The journeyman mage is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The journeyman wizard has the following wizard spells prepared:<br><br>Cantrip (at will): <i>minor illusion, fire bolt, mending</i><br>1st level (4 slots): <i>mage armor*, jump, shield</i><br>2nd level (3 slots): <i>alter self, aganazzar's scorcher</i><br>3rd level (2 slots): <i>counterspell, lightning bolt</i><br><br><i>*The wizard casts these spells on itself before combat.</i>"
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Quarterstaff",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+0 to hit, reach 5 ft, one target. <i>Hit:</i> 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Martial Commander",
+            "category": "Martial",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "19 (half plate, shield)",
+            "hp": "78 (12d8 + 24)",
+            "speed": "30 ft.",
+            "str": 16,
+            "dex": 14,
+            "con": 14,
+            "int": 12,
+            "wis": 12,
+            "cha": 14,
+            "skills": "Intimidation +4, Athletics +5",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "any two languages",
+            "challenge": "4 (1,100 XP)",
+            "section-traits": [],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The martial commander makes three longsword or two javelin attacks."
+                },
+                {
+                    "label": "Leadership (Recharges after a Short or Long rest)",
+                    "deco": "",
+                    "desc": "For 1 minute, the martial commander can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or saving throw. The creature can add a d4 to its roll provided it can hear and understand the commander. A creature can benefit from only one Leadership die at a time. This effect ends if the commander is incapacitated."
+                },
+                {
+                    "label": "Longsword",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+5 to hit, reach 5 ft, one target. <i>Hit:</i> 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands to make a melee attack."
+                },
+                {
+                    "label": "Javelin",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+5 to hit, reach 5 ft. or range 30/120 ft., one target. <i>Hit:</i> 5 (1d6 + 3) piercing damage."
+                }
+            ],
+            "section-reactions": [
+                {
+                    "label": "Parry",
+                    "deco": "",
+                    "desc": "The martial commander adds +2 AC against an attack that would normally hit it. To do so, the commander must see the attacker and be wielding a melee weapon."
+                }
+            ],
+            "legendary-actions": []
+        },
+        {
+            "name": "Master Swordsman",
+            "category": "Martial",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "17 (studded leather)",
+            "hp": "121 (22d8 + 22)",
+            "speed": "30 ft.",
+            "str": 14,
+            "dex": 20,
+            "con": 12,
+            "int": 14,
+            "wis": 14,
+            "cha": 14,
+            "skills": "Acrobatics +8, Insight +5, Perception +5, Persuasion +5, Sleight of Hand +8",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 15",
+            "languages": "any two languages",
+            "challenge": "7 (2,900 XP)",
+            "section-traits": [
+                {
+                    "label": "Cold Steel",
+                    "deco": "",
+                    "desc": "The master swordsman gains +1 to its damage with its longsword while wielding it and no other weapon or shield (included in the attack)."
+                },
+                {
+                    "label": "Form Over Force",
+                    "deco": "",
+                    "desc": "The master swordsman can use its Dexterity score when making attacks with its longsword."
+                },
+                {
+                    "label": "Hard Target (Recharge 5-6)",
+                    "deco": "",
+                    "desc": "The master swordsman can take the Dodge action as a bonus action."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The Master Swordsman makes three longsword attacks."
+                },
+                {
+                    "label": "Longsword",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+8 to hit, reach 5 ft, one target. <i>Hit:</i> 10 (1d8 + 6) slashing damage, or 11 (1d10 + 6) slashing damage if used with two hands to make a melee attack."
+                }
+            ],
+            "section-reactions": [
+                {
+                    "label": "Parry",
+                    "deco": "",
+                    "desc": "The martial commander adds +3 AC against an attack that would normally hit it. To do so, the master swordsman must see the attacker and be wielding a melee weapon."
+                },
+                {
+                    "label": "Riposte (Recharge 5-6)",
+                    "deco": "",
+                    "desc": "The master swordsman makes a weapon attack against a creature that missed it with a melee attack."
+                }
+            ],
+            "legendary-actions": []
+        },
+        {
+            "name": "Mystic",
+            "category": "Arcane",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "12 (15 with <i>mage armor</i>)",
+            "hp": "54 (12d8)",
+            "speed": "30 ft.",
+            "str": 10,
+            "dex": 14,
+            "con": 10,
+            "int": 16,
+            "wis": 16,
+            "cha": 9,
+            "skills": "Arcana +6, Insight +6",
+            "saves": "Int +6, Wis +6",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "any three languages",
+            "challenge": "3 (700 XP)",
+            "section-traits": [
+                {
+                    "label": "Psionics",
+                    "deco": "",
+                    "desc": "The mystic is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Many mystics practice psionics. Such mystics require no verbal, somatic, or material requirements for their abilities. In either case, the mystic effectively has the following wizard spells prepared:<br><br>Cantrip (at will): <i>friends, message, thunderclap</i><br>1st level (4 slots): <i>charm person, disguise self, mage armor*</i><br>2nd level (3 slots): <i>blur*, detect thoughts, locate object</i><br>3rd level (3 slots): <i>clairvoyance, lightning bolt, tongues</i><br>4th level (3 slots): <i>arcane eye, dimension door, locate creature</i><br>5th level (1 slot): <i>legend lore, rary's telepathic bond</i><br><br><i>The mystic casts these spells on itself before combat.</i>"
+                },
+                {
+                    "label": "Strength of Mind (Recharges after a Short or Long Rest)",
+                    "deco": "",
+                    "desc": "if the mystic is required to make a saving throw it is not proficient in, it may use its Wisdom save modifiers instead."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Dagger",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+2 to hit, reach 5 ft. or range 20/60 ft., one target. <i>Hit:</i> 2 (1d4 + 2) piercing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
         }
     ]
 }
