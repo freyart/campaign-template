@@ -129,7 +129,7 @@
                 {
                     "label": "Spellcasting",
                     "deco": "",
-                    "desc": "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:<br><br>Cantrips (at will): <i>light, sacred flame, thaumaturgy</i><br>1st level (3 slots): <i>bless, cure wounds, sanctuary</i>"
+                    "desc": "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has the following cleric spells prepared:<br><br>Cantrips (at will): <i>light, sacred flame, thaumaturgy</i><br>1st level (3 slots): <i>bless, cure wounds, sanctuary</i>"
                 }
             ],
             "section-actions": [
@@ -1467,7 +1467,7 @@
                 {
                     "label": "Spellcasting",
                     "deco": "",
-                    "desc": "The trickster is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It has following bard spells prepared:<br><br>Cantrips (at will): <i>mage hand, vicious mockery</i><br>1st level (4 slots): <i>charm person, sleep</i><br>2nd level (2 slots): <i>invisibility</i>"
+                    "desc": "The trickster is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It has the following bard spells prepared:<br><br>Cantrips (at will): <i>mage hand, vicious mockery</i><br>1st level (4 slots): <i>charm person, sleep</i><br>2nd level (2 slots): <i>invisibility</i>"
                 }
             ],
             "section-actions": [
@@ -1622,7 +1622,7 @@
                 {
                     "label": "Still Standing",
                     "deco": "",
-                    "desc": "If the brawler has 10 of fewer hit points remaining, it has advantage on attack rolls."
+                    "desc": "If the brawler has 10 or fewer hit points remaining, it has advantage on attack rolls."
                 }
             ],
             "section-actions": [
@@ -2215,6 +2215,948 @@
                 }
             ],
             "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Ninja",
+            "category": "Crime",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "17",
+            "hp": "65 (10d8 + 20)",
+            "speed": "40 ft.",
+            "str": 12,
+            "dex": 18,
+            "con": 14,
+            "int": 12,
+            "wis": 16,
+            "cha": 10,
+            "skills": "Acrobatics +7, Deception +3, Sleight of Hand +7, Stealth +7",
+            "saves": "Dex +10, Wis +6",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "any one language (usually Common)",
+            "challenge": "6 (2,300 XP)",
+            "section-traits": [
+                {
+                    "label": "Evasion",
+                    "deco": "",
+                    "desc": "If the ninja is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the ninja instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+                },
+                {
+                    "label": "Shadow Stealth",
+                    "deco": "",
+                    "desc": "While in dim light or darkness, the ninja take the Hide action as a bonus action."
+                },
+                {
+                    "label": "Unarmored Defense",
+                    "deco": "",
+                    "desc": "While the ninja is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The ninja makes two weapon attacks."
+                },
+                {
+                    "label": "Longsword",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+7 to hit, reach 5 ft, one target. <i>Hit:</i> 10 (1d6 + 4) piercing damage, plus 7 (2d6) poison damage."
+                },
+                {
+                    "label": "Dart",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+7 to hit, reach 5 ft. or range 20/60 ft., one target. <i>Hit:</i> 6 (1d4 + 4) piercing damage, plus 7 (2d6) poison damage."
+                },
+                {
+                    "label": "Smoke Bomb (1/Day)",
+                    "deco": "",
+                    "desc": "The ninja throws a smoke bomb at a point up 60 feet away. The area within a 5-foot radius of the impact immediately becomes heavily obscured. A moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a string wind (20 or more miles per hour) disperses it in one round. Otherwise, the smoke dissipates after 1 minute."
+                }
+            ],
+            "section-reactions": [
+                {
+                    "label": "Deflect Missile",
+                    "deco": "",
+                    "desc": "In response to being hit by a ranged weapon, the ninja deflects the missile. The damage it takes from the attack is reduced by 1d10 + 4. If the damage is reduced to 0, the ninja catches the missile if its small enough to hold in one hand and the ninja has a free hand."
+                }
+            ],
+            "legendary-actions": []
+        },
+        {
+            "name": "Outland Veteran",
+            "category": "Wilderness",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "15 (hide, shield)",
+            "hp": "58 (9d8 + 18)",
+            "speed": "30 ft.",
+            "str": 14,
+            "dex": 12,
+            "con": 15,
+            "int": 9,
+            "wis": 12,
+            "cha": 9,
+            "skills": "",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "any one language (usually Common)",
+            "challenge": "2 (450 XP)",
+            "section-traits": [
+                {
+                    "label": "Ferocious Attacks",
+                    "deco": "",
+                    "desc": "The veteran rolls two damage dice for its weapon attacks (included in the attack)."
+                },
+                {
+                    "label": "Pack Tactics",
+                    "deco": "",
+                    "desc": "The veteran has advantage on an attack roll against a creature if at least one of the veteran's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The veteran makes two weapon attacks."
+                },
+                {
+                    "label": "Handaxe",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+4 to hit, reach 5 ft, and range 20/60 ft., one target. <i>Hit:</i> 9 (2d6 + 2) slashing damage."
+                },
+                {
+                    "label": "Spear",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+4 to hit, reach 5 ft, and range 20/60 ft., one target. <i>Hit:</i> 9 (2d6 + 2) piercing damage, or 11 (2d8 + 4) piercing damage if used with two hands to make a melee attack."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Overseer",
+            "category": "Urban",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "15 (studded leather)",
+            "hp": "52 (8d8 + 16)",
+            "speed": "30 ft.",
+            "str": 12,
+            "dex": 16,
+            "con": 14,
+            "int": 12,
+            "wis": 15,
+            "cha": 14,
+            "skills": "Insight +4, Intimidation +4",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 12",
+            "languages": "any one language (usually Common)",
+            "challenge": "2 (450 XP)",
+            "section-traits": [
+                {
+                    "label": "Intimidating Glare",
+                    "deco": "",
+                    "desc": "As a bonus action, the overseer can direct its gaze at a creature it can see. The creature must make a DC 13 Wisdom saving throw or be frightened for 1 minute. The creature may repeat this saving throw at the end of each of its turns. On a success, the creature is immune to the overseer's glare for 24 hours."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The overseer makes three melee weapon attacks, or one sleep dart attack."
+                },
+                {
+                    "label": "Leadership (Recharges after a Short or Long rest)",
+                    "deco": "",
+                    "desc": "For 1 minute, the overseer can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or saving throw. The creature can add a d4 to its roll provided it can hear and understand the overseer. A creature can benefit from only one Leadership die at a time. This effect ends if the overseer is incapacitated."
+                },
+                {
+                    "label": "Scimitar",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+5 to hit, reach 5 ft, one target. <i>Hit:</i> 5 (1d6 + 3) slashing damage."
+                },
+                {
+                    "label": "Whip (optional)",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+5 to hit, reach 10 ft, one target. <i>Hit:</i> 5 (1d4 + 3) slashing damage."
+                },
+                {
+                    "label": "Sleep Dart",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+5 to hit, and range 20/60 ft., one target. <i>Hit:</i> 1 piercing damage. The target creature must succeed on a DC 12 Constitution saving throw of fall asleep for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This attack has no effect on constructs or undead."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Paladin",
+            "category": "Holy",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "20 (plate, shield)",
+            "hp": "71 (11d8 + 22)",
+            "speed": "30 ft.",
+            "str": 16,
+            "dex": 12,
+            "con": 14,
+            "int": 11,
+            "wis": 12,
+            "cha": 16,
+            "skills": "Animal Handling +4, Religion +3",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "diseased, frightened",
+            "senses": "passive Perception 11",
+            "languages": "any one language (usually Common)",
+            "challenge": "5 (1,800 XP)",
+            "section-traits": [
+                {
+                    "label": "Divine Sense (4/day)",
+                    "deco": "",
+                    "desc": "Until the end of its next turn, the paladin knows the location of any celestial, fiend or undead within 60 feet that is not behind total cover."
+                },
+                {
+                    "label": "Lay on hand",
+                    "deco": "",
+                    "desc": "As an action, the paladin can touch a creature and draw from its pool of 25 hit points to restore a number of hit points to that creature, up to the maximum remaining in its pool.<br>The paladin can, alternatively, can expend 5 hit points from its pool of healing to cure the target of one disease or neutralize one poison affecting it. It can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points seperately for each one.<br>This feature has no effect on undead or constructs."
+                },
+                {
+                    "label": "Sacred Weapon (1/day)",
+                    "deco": "",
+                    "desc": "For 1 minute, the paladin adds its +3 to attack rolls made with its longsword. The longsword also emites a bright light in a 20-foot radius, and dim light 20 feet beyond that. The weapon attacks are considered magical."
+                },
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The paladin is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). The paladin has the following paladin spells prepared:<br><br>Cantrips (at will): <i>light, sacred flame, thaumaturgy</i><br>1st level (4 slots): <i>compelled duel, protection from evil and good, shield of faith</i><br>2nd level (2 slots): <i>lesser restoration, zone of truth</i>"
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The paladin makes two longsword attacks."
+                },
+                {
+                    "label": "Longsword",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+6 to hit, reach 5 ft, one target. <i>Hit:</i> 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands to make a melee attack, plus 4 (1d8) radiant damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Performer",
+            "category": "Urban",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "16 (studed leather)",
+            "hp": "44 (8d8 + 8)",
+            "speed": "30 ft.",
+            "str": 12,
+            "dex": 18,
+            "con": 12,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "skills": "Acrobatics +6, Performance +7, Sleight of Hand +6, Stealth +6",
+            "saves": "Dex +6",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 12",
+            "languages": "any one language (usually Common)",
+            "challenge": "3 (700 XP)",
+            "section-traits": [
+                {
+                    "label": "Evasion",
+                    "deco": "",
+                    "desc": "If the performer is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the performer instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+                },
+                {
+                    "label": "Light-footed",
+                    "deco": "",
+                    "desc": "The performer can take the Dash or Disengage action as a bonus action."
+                },
+                {
+                    "label": "Sneak Attack (1/turn)",
+                    "deco": "",
+                    "desc": "The performer deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the performer that isn't incapacitated and the performer doesn't have disadvantage on the attack roll."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The three melee or ranged weapon attacks."
+                },
+                {
+                    "label": "Fire Breath (Recharge 5-6); optional",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "Creatures at 15-foot cone of the performer must make a DC 14 Dexterity saving throw, taking 4d6 fire damage on failed save, or half as much on a successful one."
+                },
+                {
+                    "label": "Dagger",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+6 to hit, reach 5ft. or range 20/60 ft., one target. <i>Hit: </i>5 (1d4 + 4) piercing damage."
+                },
+                {
+                    "label": "Whip",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+6 to hit, reach 10ft. one target. <i>Hit: </i>6 (1d4 + 4) slashing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Relentless Fighter",
+            "category": "Martial",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "16 (chain shirt, shield)",
+            "hp": "37 (5d8 + 15)",
+            "speed": "30 ft.",
+            "str": 15,
+            "dex": 13,
+            "con": 16,
+            "int": 10,
+            "wis": 11,
+            "cha": 10,
+            "skills": "Athletics +4",
+            "saves": "Con +5",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "any one language (usually Common)",
+            "challenge": "1 (200 XP)",
+            "section-traits": [
+                {
+                    "label": "Warrior's Fortitude",
+                    "deco": "",
+                    "desc": "If damage reduces the relentless fighter to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is from a critical hit. On a success, the relentless fighter drops to 1 hit point instead."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The fighter makes two weapon attacks."
+                },
+                {
+                    "label": "Battleaxe",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+4 to hit, reach 5ft., one target. <i>Hit: </i>6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands to make a melee attack."
+                },
+                {
+                    "label": "Javelin",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+4 to hit, reach 5 ft. or range 30/120 ft., one target. <i>Hit:</i> 5 (1d6 + 2) piercing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Rugged Warrior",
+            "category": "Martial",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "16 (chain shirt, shield)",
+            "hp": "19 (3d8 + 6)",
+            "speed": "30 ft.",
+            "str": 14,
+            "dex": 12,
+            "con": 14,
+            "int": 9,
+            "wis": 12,
+            "cha": 9,
+            "skills": "Survival +3",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "any one language (usually Common)",
+            "challenge": "1/2 (100 XP)",
+            "section-traits": [
+                {
+                    "label": "Defensive Formation",
+                    "deco": "",
+                    "desc": "The warrior gains a +2 bonus to its AC if at least one of the warrior's allies with a shield is within 5 feet of the warrior and the ally isn't incapacitated."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Battleaxe",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+4 to hit, reach 5ft., one target. <i>Hit: </i>6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands to make a melee attack."
+                },
+                {
+                    "label": "Shortbow",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+4 to hit, range 80/320 ft., one target. <i>Hit:</i> 5 (1d6 + 2) piercing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Ruler-Warrior",
+            "category": "Martial",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "18 (plate)",
+            "hp": "149 (23d8 + 46)",
+            "speed": "30 ft.",
+            "str": 16,
+            "dex": 14,
+            "con": 14,
+            "int": 14,
+            "wis": 14,
+            "cha": 16,
+            "skills": "History +5, Insight +5, Intimidation +6, Persuasion +6",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 12",
+            "languages": "any one language (usually Common)",
+            "challenge": "7 (2,900 XP)",
+            "section-traits": [
+                {
+                    "label": "Brave",
+                    "deco": "",
+                    "desc": "The ruler warrior has advantage on saving throws against being frightened."
+                },
+                {
+                    "label": "Aura of Courage",
+                    "deco": "",
+                    "desc": "Allied creature that are within 30 and can see or hear the ruler-warrior have advantage on saving throws against being frightened."
+                },
+                {
+                    "label": "Ferocious Attacks",
+                    "deco": "",
+                    "desc": "The ruler-warrior rolls an extra damage dice for its weapon attacks (included in the description)."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The ruler-warrior makes three longsword attacks or two heavy crossbow attacks (the ruler-warrior ignores the Loading quality)."
+                },
+                {
+                    "label": "Longsword",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+6 to hit, reach 5ft., one target. <i>Hit: </i>12 (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if used with two hands to make a melee attack."
+                },
+                {
+                    "label": "Heavy Crossbow",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+6 to hit, range 100/400 ft., one target. <i>Hit:</i> 14 (2d10 + 3) piercing damage."
+                }
+            ],
+            "section-reactions": [
+                {
+                    "label": "Parry",
+                    "deco": "",
+                    "desc": "The ruler-warrior adds +3 AC against an attack that would normally hit it. To do so, the ruler-warrior must see the attacker and be wielding a melee weapon."
+                }
+            ],
+            "legendary-actions": []
+        },
+        {
+            "name": "Scholar",
+            "category": "Urban",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "10",
+            "hp": "9 (2d8)",
+            "speed": "30 ft.",
+            "str": 9,
+            "dex": 10,
+            "con": 10,
+            "int": 16,
+            "wis": 12,
+            "cha": 12,
+            "skills": "Arcana +6, History +6",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "any three languages",
+            "challenge": "1/8 (25 XP)",
+            "section-traits": [
+                {
+                    "label": "Faint-Hearted",
+                    "deco": "",
+                    "desc": "If a creature makes an attack on the scholar, and the scholar is not incapacitated, it can move 10 feet away from the attacker as a reaction, not provoking attacks of opportunity."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Dagger",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+2 to hit, reach 5ft. or range 20/60 ft., one target. <i>Hit: </i>2 (1d4) piercing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Scoundrel",
+            "category": "Crime",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "13 (leather)",
+            "hp": "9 (2d8)",
+            "speed": "30 ft.",
+            "str": 10,
+            "dex": 14,
+            "con": 10,
+            "int": 10,
+            "wis": 10,
+            "cha": 14,
+            "skills": "Deception +4, Persuasion +4, Sleight of Hand +4, Stealth +4",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "any one language (usually Common)",
+            "challenge": "1/4 (50 XP)",
+            "section-traits": [
+                {
+                    "label": "Surprise Attack",
+                    "deco": "",
+                    "desc": "If the scoundrel surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 3 (1d6) damage from the attack."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Dagger",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+4 to hit, reach 5ft. or range 20/60 ft., one target. <i>Hit: </i>4 (1d4 + 2) piercing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Seasoned Hunter",
+            "category": "Wilderness",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "15 (studded leather)",
+            "hp": "55 (10d8 + 10)",
+            "speed": "30 ft.",
+            "str": 14,
+            "dex": 16,
+            "con": 12,
+            "int": 12,
+            "wis": 16,
+            "cha": 11,
+            "skills": "Acrobatics +6, Nature +4, Perception +6, Survival +9",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 16",
+            "languages": "any two languages",
+            "challenge": "3 (700 XP)",
+            "section-traits": [
+                {
+                    "label": "Ambusher",
+                    "deco": "",
+                    "desc": "The seasoned hunter has advantage on attack rolls against any creature if has surprised."
+                },
+                {
+                    "label": "Evasion",
+                    "deco": "",
+                    "desc": "If the seasoned hunter is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the seasoned hunter instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+                },
+                {
+                    "label": "Evasive Fire",
+                    "deco": "",
+                    "desc": "As a bonus action, the seasoned hunter may move up to half of its movement away from its target immediately after making an attack. This does not provoke an attack of opportunity from the target if it is within 5 feet, but it still has disadvantage on Evasive Attacks made with ranged weapons against enemies within 5 feet."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The seasoned hunter makes two ranged or three shortsword attacks."
+                },
+                {
+                    "label": "Shortsword",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+5 to hit, reach 5ft., one target. <i>Hit: </i>6 (1d6 + 3) piercing damage."
+                },
+                {
+                    "label": "Longbow",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+5 to hit, range 150/600 ft., one target. <i>Hit:</i> 7 (1d8 + 3) piercing damage, plus 3 (1d6) poison damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Shaman",
+            "category": "Wilderness",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "12",
+            "hp": "52 (8d8 + 16)",
+            "speed": "30 ft.",
+            "str": 14,
+            "dex": 12,
+            "con": 14,
+            "int": 14,
+            "wis": 16,
+            "cha": 12,
+            "skills": "Nature +4, Perception +5, Survival +5, Medicine +5",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 15",
+            "languages": "any two languages",
+            "challenge": "3 (700 XP)",
+            "section-traits": [
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The shaman is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following druid spells prepared:<br><br>Cantrip (at will): <i>druidcraft, shillelagh, produce flame</i><br>1st level (4 slots): <i>absorb elements, cure wounds, fog cloud</i><br>2nd level (3 slots): <i>barkskin, lesser restoration, locate object</i><br>3rd level (3 slots): <i>call lightning, daylight, protection from energy</i><br>4th level (3 slots): <i>blight, confusion, polymorph</i><br>5th level (1 slots): <i>mass cure wounds</i>"
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Quarterstaff",
+                    "deco": "Melee Weapon Attack",
+                    "desc": "+4 to hit, reach 5 ft, one target. <i>Hit:</i> 5 (1d6 + 2) bludgeoning damage if using two hands or <i>shillelagh</i>."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Slayer",
+            "category": "Wilderness",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "16",
+            "hp": "161 (19d8 + 76)",
+            "speed": "30 ft.",
+            "str": 18,
+            "dex": 14,
+            "con": 18,
+            "int": 10,
+            "wis": 14,
+            "cha": 8,
+            "skills": "Athletics +7",
+            "saves": "Str +7, Con +7",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 12",
+            "languages": "any one language (usually Common)",
+            "challenge": "7 (2,900 XP)",
+            "section-traits": [
+                {
+                    "label": "Brute",
+                    "deco": "",
+                    "desc": "A melee weapon deals one extra die of damage when the slayer hits with it (included in the attack)."
+                },
+                {
+                    "label": "Reckless",
+                    "deco": "",
+                    "desc": "At the start of its turn, the slayer can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+                },
+                {
+                    "label": "Unarmored Defense",
+                    "deco": "",
+                    "desc": "While the slayer is wearing no armor, its AC includes its Constitution modifier."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The slayer makes three weapon attacks, one with its battleaxe and two with its handaxe."
+                },
+                {
+                    "label": "Battleaxe",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+7 to hit, reach 5ft., one target. <i>Hit: </i>13 (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with two hands to make a melee attack."
+                },
+                {
+                    "label": "Handaxe",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+7 to hit, reach 5ft. or range 20/60 ft., one target. <i>Hit: </i>11 (2d6 + 4) slashing damage."
+                }
+            ],
+            "section-reactions": [
+                {
+                    "label": "Unbridled Fury (Recharge 4-6)",
+                    "deco": "",
+                    "desc": "In response to being hit by a melee attack, the slayer can make a battleaxe attack against a creature within 5 feet."
+                }
+            ],
+            "legendary-actions": []
+        },
+        {
+            "name": "Soldier",
+            "category": "Martial",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "17 (breast plate, shield)",
+            "hp": "38 (7d8 + 7)",
+            "speed": "30 ft.",
+            "str": 14,
+            "dex": 14,
+            "con": 12,
+            "int": 10,
+            "wis": 11,
+            "cha": 10,
+            "skills": "Athletics +4",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "any one language (usually Common)",
+            "challenge": "1 (200 XP)",
+            "section-traits": [
+                {
+                    "label": "Martial Advantage",
+                    "deco": "",
+                    "desc": "Once per turn, the soldier can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the soldier that isn't incapacitated."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Longsword",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+4 to hit, reach 5ft., one target. <i>Hit: </i>6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands to make a melee attack."
+                },
+                {
+                    "label": "Light Crossbow",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+4 to hit, range 80/320 ft., one target. <i>Hit: </i>6 (1d8 + 2) piercing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Spellsword",
+            "category": "Arcane",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "16 (breast plate)",
+            "hp": "71 (11d8 + 22)",
+            "speed": "30 ft.",
+            "str": 16,
+            "dex": 14,
+            "con": 14,
+            "int": 16,
+            "wis": 12,
+            "cha": 12,
+            "skills": "Arcana +6",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "any one language (usually Common)",
+            "challenge": "4 (1,100 XP)",
+            "section-traits": [
+                {
+                    "label": "War Magic",
+                    "deco": "",
+                    "desc": "When the spellsword uses its action to cast a cantrip or 1st-level spell, it can make an attack with its longsword as a bonus action."
+                },
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The spellsword is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). It has the following wizard spells prepared:<br><br>Cantrips (at will): <i>fire bolt, true strike</i><br>1st level (4 slot): <i>grease, shield, thunderwave</i><br>2nd level (3 slots): <i>flaming sphere, invisibility</i>"
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The spellsword makes two longsword attacks."
+                },
+                {
+                    "label": "Longsword",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+6 to hit, reach 5ft., one target. <i>Hit: </i>7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands to make a melee attack."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Warchief",
+            "category": "Wilderness",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "14 (hide)",
+            "hp": "135 (18d8 + 54)",
+            "speed": "30 ft.",
+            "str": 16,
+            "dex": 14,
+            "con": 16,
+            "int": 14,
+            "wis": 16,
+            "cha": 16,
+            "skills": "Insight +6, Perception +6",
+            "saves": "Cha +6, Wis +6",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 16",
+            "languages": "any two languages",
+            "challenge": "5 (1,800 XP)",
+            "section-traits": [
+                {
+                    "label": "Brute",
+                    "deco": "",
+                    "desc": "A melee weapon deals one extra die of its damage when the warchief hits with it."
+                },
+                {
+                    "label": "Sweeping Attack (Recharge 5-6)",
+                    "deco": "",
+                    "desc": "When the warchief makes a greataxe attack, it can make an additional greataxe attack, as a bonus action, on a creature within reach and 5 feet of the original target."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The war chief makes two weapon attacks."
+                },
+                {
+                    "label": "Battle Cry (1/Day)",
+                    "deco": "",
+                    "desc": "Each creature of the warchief's choice that is within 30 feet of it, can hear it, and not already affected by Battle Cry gain advantage on attack rolls, until the start of the warchief's next turn. The warchief can then make one attack as a bonus action."
+                },
+                {
+                    "label": "Greataxe",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+6 to hit, reach 5ft., one target. <i>Hit: </i>16 (2d12 + 3) slashing damage."
+                },
+                {
+                    "label": "Javelin",
+                    "deco": "Melee or Ranged Weapon Attack:",
+                    "desc": "+6 to hit, reach 5ft. or range 30/120 ft., one target. <i>Hit: </i>5 (2d6 + 3) piercing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Warden",
+            "category": "Martial",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "15 (chain shirt)",
+            "hp": "38 (7d8 + 7)",
+            "speed": "30 ft.",
+            "str": 14,
+            "dex": 14,
+            "con": 12,
+            "int": 12,
+            "wis": 14,
+            "cha": 12,
+            "skills": "Insight +4, Perception +4",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 14",
+            "languages": "any one language (usually Common)",
+            "challenge": "1 (200 XP)",
+            "section-traits": [],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The warden makes two melee attacks or one hand crossbow attack."
+                },
+                {
+                    "label": "Mace",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+4 to hit, reach 5ft., one target. <i>Hit: </i>5 (1d6 + 2) bludgeoning damage."
+                },
+                {
+                    "label": "Hand Crossbow",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+4 to hit, range 30/120 ft., one target. <i>Hit: </i>5 (1d6 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or fall asleep for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This attack has no effect on constructs or undead."
+                },
+                {
+                    "label": "Disarming Strike (1/Turn)",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+4 to hit, reach 5ft., one target. <i>Hit: </i>5 (1d6 + 2) bludgeoning damage, and the target must succeed on a DC 12 Strength saving throw or drop one item of the warden's choice that the target is holding. The object lands at the target's feet."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Whirling Swordsman",
+            "category": "Martial",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "15 (leather)",
+            "hp": "71 (13d8 + 13)",
+            "speed": "30 ft.",
+            "str": 10,
+            "dex": 20,
+            "con": 12,
+            "int": 10,
+            "wis": 12,
+            "cha": 12,
+            "skills": "Acrobatics +7",
+            "saves": "Dex +7",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "any one language (usually Common)",
+            "challenge": "4 (1,100 XP)",
+            "section-traits": [
+                {
+                    "label": "Ferocious Attacks",
+                    "deco": "",
+                    "desc": "A melee weapon deals one extra die of its damage when the swordsman hits with it (included in the attack)."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Multiattack",
+                    "deco": "",
+                    "desc": "The swordsman makes two melee attacks with its scimitars."
+                },
+                {
+                    "label": "Scimitar",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+7 to hit, reach 5ft., one target. <i>Hit: </i>12 (2d6 + 5) slashing damage."
+                },
+                {
+                    "label": "Whirlwind (Recharge 4-6)",
+                    "deco": "",
+                    "desc": "The swordsman moves up to 15 feet. The swordsman may make a scimitar attack on up to 5 creatures of the swordsman's choice that pass within 5 feet. Attacks of opportunity taken while the swordsman is using the Whirlwind action have disadvantage."
+                }
+            ],
+            "section-reactions": [
+                {
+                    "label": "Uncanny Dodge",
+                    "deco": "",
+                    "desc": "The swordsman halves the damage from an attack that hits it. The swordsman must be able to see the attack."
+                }
+            ],
             "legendary-actions": []
         }
     ]
