@@ -15,6 +15,10 @@
         {
             "date": "2019-02-04T07:37:06.419Z",
             "message": "Ajout de quelques notes sur les Reines-Mères dans la section des territoires, vu que les joueurs semblent intéressés à cette dimension."
+        },
+        {
+            "date": "2019-02-11T10:25:06.419Z",
+            "message": "Ajout d'un journal de campagne, permet de faire affaire de résumé de ce qui s'est produit dans la partie.<br>J'ai aussi ajouté une section que j'apelle le guide qui couvre un paquet de petits articles"
         }
     ]
 }
