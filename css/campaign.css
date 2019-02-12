@@ -6,6 +6,9 @@
 
 body {
     background-color: var(--main-bg-color);
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-attachment: fixed;
     font-family: 'Lato', sans-serif;
     margin-top:1rem;
 }
@@ -23,7 +26,10 @@ body {
 }
 
 #main {
-    padding: 1rem;
+    padding: 1.5rem;
+    margin: 1rem;
+    margin-top: 5rem;
+    background-color: rgba(245, 234, 205, 0.6);
 }
 
 h1, h2, h3, h4, h5 {

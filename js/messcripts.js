@@ -3,8 +3,7 @@ var hostName = 'https://freyart.github.io/campaign-template/'
 $(document).ready(function () {
     
     $(document).ready(function () {
-        $("#sidebar").load("sidebar.html");
-        $("#sidebardm").load("sidebardm.html");
+        $("#sidebar").load("navbar.html");
     })
     
     /* Pour les galleries de npcs */
