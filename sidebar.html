@@ -1,12 +1,21 @@
 <div>
 
-    <div class="brand"><h3>Frontières</h3></div>
+    <div class="brand">
+        <h3>Frontières</h3>
+    </div>
     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
     <div class="menu-list">
         <ul id="menu-content" class="menu-content collapse out">
             <li>
                 <a href="index.html"><i class="fab fa-atlassian fa-lg"></i> Accueil</a>
             </li>
+
+            <!-- Section journal -->
+            <li data-toggle="collapse" class="collapsed">
+                <a href="journal.html"><i class="fa fa-book-open fa-lg"></i> La Campagne</a>
+            </li>
+            
+            <!-- Section setting -->
             <li data-toggle="collapse" data-target="#setting" class="collapsed">
                 <a href="#">
                     <i class="fas fa-atlas fa-lg"></i> Le Monde
@@ -14,17 +23,11 @@
                 </a>
             </li>
             <ul class="sub-menu collapse" id="setting">
-				<li><a href="territoires.html">Les Territoires</a></li>
+                <li><a href="codex.html">Le Codex</a></li>
+                <li><a href="territoires.html">Les Territoires</a></li>
             </ul>
-
-<!--             <li data-toggle="collapse" data-target="#campaign" class="collapsed">
-                <a href="#">
-                    <i class="fas fa-book-open fa-lg"></i> La Campagne
-                    <span class="arrow"></span>
-                </a>
-            </li>
--->
-
+            
+            <!-- Section personnages -->
             <li data-toggle="collapse" data-target="#characters" class="collapsed">
                 <a>
                     <i class="fa fa-users fa-lg"></i> Les Personnages
@@ -37,18 +40,16 @@
                 <li><a href="supportnpcs.html">Personnages secondaires</a></li>
             </ul>
 
-<!--             <li data-toggle="collapse" data-target="#logs" class="collapsed">
-                <a href="journal.html"><i class="fa fa-book fa-lg"></i> Journal de campagne</a>
-            </li> -->
-
+            <!-- Section règles et références -->
             <li data-toggle="collapse" data-target="#new" class="collapsed">
                 <a href="#">
-                    <i class="fa fa-dice-d20 fa-lg"></i> La Partie
+                    <i class="fa fa-dice-d20 fa-lg"></i> R&egrave;gles &amp; R&eacute;f&eacute;rences
                     <span class="arrow"></span>
                 </a>
             </li>
             <ul class="sub-menu collapse" id="new">
-                <li><a href="files/Shifter_Warforged.pdf">Shifters et Warforged<i class="fas fa-file-download"></i></a></li>
+                <li><a href="files/Shifter_Warforged.pdf">Shifters et Warforged<i class="fas fa-file-download"></i></a>
+                </li>
             </ul>
 
         </ul>
