@@ -19,6 +19,10 @@
         {
             "date": "2019-02-11T10:25:06.419Z",
             "message": "Ajout d'un journal de campagne, permet de faire affaire de résumé de ce qui s'est produit dans la partie.<br>J'ai aussi ajouté une section que j'apelle le guide qui couvre un paquet de petits articles"
+        },
+        {
+            "date": "2019-02-12T23:08:06.419Z",
+            "message": "Comme vous aurez pu le constater j'ai rehaussé un peu le visuel du site."
         }
     ]
 }

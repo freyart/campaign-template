@@ -1,9 +1,7 @@
-var hostName = 'https://freyart.github.io/campaign-template/'
-
 $(document).ready(function () {
     
     $(document).ready(function () {
-        $("#sidebar").load("navbar.html");
+        $("#navbar").load("navbar.html");
     })
     
     /* Pour les galleries de npcs */
@@ -12,7 +10,7 @@ $(document).ready(function () {
         $('#imgModal').attr('src', this.src);
         $('#modal-caption').text(this.alt);
     })
-    $(".close").on('click', function (event) {
+    $("#viewerModal").on('click', function (event) {
         $('#viewerModal').css('display','none');
     })
 });

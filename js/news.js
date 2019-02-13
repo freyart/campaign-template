@@ -15,7 +15,7 @@ function UpdateNews() {
                 if (i < nbNews) {
                     var $nouvelle = $('<div>').addClass('news-block');
                     $nouvelle.append($('<div>').addClass('news-date').append(PrintDate(data.news[i].date)));
-                    $nouvelle.append(data.news[i].message);
+                    $nouvelle.append($('<div>').addClass('news-message').append(data.news[i].message));
                     $sortie.append($nouvelle);
                 }
             });

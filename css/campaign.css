@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Almendra|Vollkorn|Lato|Libre+Baskerville|Noto+Sans');
+
+
 :root {
     --main-bg-color: whitesmoke;
     --main-flourish-color:  #f5eacd;
@@ -9,27 +12,12 @@ body {
     background-image: url("../img/background.jpg");
     background-position: center;
     background-attachment: fixed;
-    font-family: 'Lato', sans-serif;
-    margin-top:1rem;
+    font-family: 'Vollkorn', sans-serif;
+    padding-top: 70px;
 }
 
-.home-template {
-    text-align: center;
-    font-family: 'Alegreya SC', serif;
-}
-
-.parchemin {
-    background-color: var(--main-flourish-color);
-    border-color: var(--secondary-flourish-color);
-    border-style: solid;
-    border-width: 2px;
-}
-
-#main {
-    padding: 1.5rem;
-    margin: 1rem;
-    margin-top: 5rem;
-    background-color: rgba(245, 234, 205, 0.6);
+.bg-site {
+    background-color: rgba(245, 234, 205, 0.4);
 }
 
 h1, h2, h3, h4, h5 {
@@ -37,6 +25,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
+    color: #9D9683;
     text-align: center;
 }
 
@@ -103,8 +92,34 @@ h1 {
 
 /* Pour l'affichage des listes de personnages */
 
+.journal-campagne .card {
+    background-color: gainsboro;
+}
+
+.journal-campagne .card p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+    text-align-last: left;
+}
+
+.journal-campagne .card ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 2em;
+    text-indent: -1em;
+}
+
+.journal-campagne .card li:before {
+    content: "- "
+}
+
+.journal-campagne .card-header {
+    background-color: silver;
+}
+
 .journal-campagne .card.new>.card-header {
-    background-color: var(--main-flourish-color);
+    background-color: rgb(221, 205, 165);
 }
 
 .journal-campagne .card-header h5{
@@ -120,24 +135,21 @@ h1 {
     font-style: italic;
 }
 
-/* Pour le module ShowMore */
-.morecontent span {
-    display: none;
-}
-.morelink {
-    display: block;
-}
-
 /* News */
 .news-block {
     font-size: small;
-    margin-bottom: 0.5rem;;
+    margin-bottom: 0.5rem;
 }
 
 .news-date {
     font-size: medium;
     padding-left: 5px;
     background-color:var(--main-flourish-color);
+}
+
+.news-message{
+    padding:5px;
+    padding-left: 15px;
 }
 
 /* Pour les images de la gallerie de personnages */
@@ -190,7 +202,7 @@ h1 {
   }
   .close {
     position: absolute;
-    top: 15px;
+    top: 60px;
     right: 35px;
     color: #f1f1f1;
     font-size: 40px;
