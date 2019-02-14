@@ -1,9 +1,10 @@
 $(document).ready(function () {
-    
-    $(document).ready(function () {
-        $("#navbar").load("navbar.html");
-    })
-    
+    $("#navbar").load("navbar.html");
+
+    ReconnaissancePortraits();
+});
+
+function ReconnaissancePortraits(){
     /* Pour les galleries de npcs */
     $(".card-img-top").on('click', function (event) {
         $('#viewerModal').css('display','block');
@@ -12,5 +13,5 @@ $(document).ready(function () {
     })
     $("#viewerModal").on('click', function (event) {
         $('#viewerModal').css('display','none');
-    })
-});
+    });
+}

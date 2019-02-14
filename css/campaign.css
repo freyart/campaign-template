@@ -59,10 +59,16 @@ h1 {
     padding: 10px;
 }
 
-.liste-personnages div.card-picture{
+/* .liste-personnages div.card-picture{
     max-height: 12rem;
     overflow: hidden;
 }
+ */
+
+/* .liste-personnages div.card-picture{
+    max-height: 30rem;
+    overflow: hidden;
+} */
 
 .liste-personnages img {
     max-width: 100%;
@@ -73,7 +79,7 @@ h1 {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
 }
-
+/* 
 .liste-personnages.secondaires div.card-picture{
     max-height:18rem;
 }
@@ -88,7 +94,7 @@ h1 {
 .liste-personnages.secondaires .row>div{
     padding-right: 5px;
     padding-left: 5px;
-}
+} */
 
 /* Pour l'affichage des listes de personnages */
 

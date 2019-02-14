@@ -1,0 +1,15 @@
+{
+    "npcs": [
+        {
+            "name" : "Bertram Holdrek",
+            "category" : "Mineur",
+            "role" : "Allié",
+            "intro": 1,
+            "desc" : "Nain, Capitaine de la compagnie du Blaireau",
+            "quote": "C'est pas aujourd'hui qui s'ra dit que l'capitaine Holdrek laisse ses ptits gars dans la misère !",
+            "description" : "Un nain un peu vieux, il est le capitaine de la petite compagnie de gardes.",
+            "portraiturl" : "img/npcs/BertramHoldrek.jpg",
+            "portraitdesc" : "Le capitaine de la compagnie du blaireau... avec un blaireau."
+        }
+    ]
+}
