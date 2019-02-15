@@ -3,41 +3,27 @@ $(document).ready(function () {
 });
 
 function FillLoreList() {
-    $.getJSON('src/codex.json')
-        .fail(function () {
-            console.error('Fichier de codex non disponible.');
-        })
-        .done(function (data) {
-            var listeLore = data.codex.sort(function (a, b) { return a.title.localeCompare(b.title); })
-            listeLore.forEach(function (article, index) {
-                var ligne = $('<tr>');
-                ligne.append($('<td>').append($('<a>').css('cursor', 'pointer').css('text-decoration', 'underline').append(article.title).on('click', function () { ShowCodex(index); })));
-                ligne.append($('<td>').append(article.category));
-                $('#tbArticles tbody').append(ligne);
-            });
+    var table = $('#tbArticles').DataTable({
+        ajax: {
+            "url": "src/codex.json",
+            "dataSrc": "codex"
+        },
+        columns: [
+            { data: 'title' },
+            { data: 'category' }
+        ],
+        paging: false,
+        info: false,        
+        language: {
+            search: "Chercher",
+            zeroRecords: "Aucun résultat."
+        }        
+    });
 
-            $('#tbArticles').DataTable({
-                paging: false,
-                info: false,
-                language: {
-                    search: "Chercher",
-                    zeroRecords: "Aucun résultat."
-                }
-            });
-        })
-}
-
-function ShowCodex(index) {
-    $.getJSON('src/codex.json')
-        .fail(function () {
-            console.error('Fichier de codex non disponible.');
-        })
-        .done(function (data) {
-            var article = data.codex[index];
-            if (article != null) {
-                $('#articles').html(GenererArticle(article));
-            }
-        })
+    $('#tbArticles tbody').on('click', 'tr', function() {
+        var data = table.row(this).data();
+        $('#articles').html(GenererArticle(data));
+    });
 }
 
 function GenererArticle(article){

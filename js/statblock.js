@@ -1,8 +1,3 @@
-/* $(document).ready(function(){
-	UpdateStatblock();
-});
- */
-
 function UpdateStatblock(){
     $.getJSON('src/stats.json')
     .fail(function() {
@@ -153,65 +148,3 @@ function PlusMinus(nombre) {
     else
         return '+' + nombre;
 }
-
-
-{/* <div class="top-stats">
-
-    <div class="property-line last">
-        <h4>Speed</h4>
-        <p>25ft.</p>
-    </div>
-    <svg height="5" width="100%" class="tapered-rule">
-        <polyline points="0,0 400,2.5 0,5"></polyline>
-    </svg>
-    <div class="abilities">
-        <div class="ability-strength">
-            <h4>STR</h4>
-            <p>14 (+2)</p>
-        </div>
-        <div class="ability-dexterity">
-            <h4>DEX</h4>
-            <p>11 (+0)</p>
-        </div>
-        <div class="ability-constitution">
-            <h4>CON</h4>
-            <p>13 (+1)</p>
-        </div>
-        <div class="ability-intelligence">
-            <h4>INT</h4>
-            <p>1 (-5)</p>
-        </div>
-        <div class="ability-wisdom">
-            <h4>WIS</h4>
-            <p>3 (-4)</p>
-        </div>
-        <div class="ability-charisma">
-            <h4>CHA</h4>
-            <p>1 (-5)</p>
-        </div>
-    </div>
-    <svg height="5" width="100%" class="tapered-rule">
-        <polyline points="0,0 400,2.5 0,5"></polyline>
-    </svg>
-    <div class="property-line first">
-        <h4>Damage Immunities</h4>
-        <p>poison, psychic</p>
-    </div>
-    <div class="property-line">
-        <h4>Condition Immunities</h4>
-        <p>blinded, charmed, deafened, exhaustion, frightened,
-            petrified, poisoned</p>
-    </div>
-    <div class="property-line">
-        <h4>Senses</h4>
-        <p>blindsight 60ft. (blind beyond this radius), passive Perception 6</p>
-    </div>
-    <div class="property-line">
-        <h4>Languages</h4>
-        <p>&mdash;</p>
-    </div>
-    <div class="property-line last">
-        <h4>Challenge</h4>
-        <p>1 (200 XP)</p>
-    </div>
-</div> */}

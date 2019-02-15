@@ -14,7 +14,6 @@
     <title>Liste des NPCs</title>
 </head>
 
-
 <body>
     <nav id="navbar"></nav>
     <div class="container-fluid" id="main">
@@ -23,15 +22,12 @@
                 <table id="tbListeNPCs" class="table table-striped compact">
                     <thead>
                         <tr>
-                            <th>PNJ</th>
-                            <th>Race & Occupation</th>
-                            <th>Description</th>
-                            <th>Role</th>
-                            <th>Partie</th>
+                            <th>Nom</th>
+                            <th>Race et Occupation</th>
+                            <th>Rôle</th>
+                            <th>Session</th>
                         </tr>
                     </thead>
-                    <tbody>
-                    </tbody>
                 </table>
             </div>
             <div class="col liste-personnages" id="fichenpc" style="min-width: 380px; max-width: 550px;">
@@ -56,6 +52,11 @@
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <script src="js/npcs.js"></script>
     <script src="js/messcripts.js"></script>
+    <script>
+        $(document).ready(function () {
+            FillListOfNpcs();
+        });
+    </script>
 </body>
 
 </html>
