@@ -6,9 +6,89 @@
             "intro": 1,
             "desc" : "Nain, Capitaine de la compagnie du Blaireau",
             "quote": "C'est pas aujourd'hui qui s'ra dit que l'capitaine Holdrek laisse ses ptits gars dans la misère !",
-            "description" : "Un nain un peu vieux, il est le capitaine de la petite compagnie de gardes.",
+            "description" : "Un nain au passé militaire, maintenant capitaine de la compagnie du Blaireau. Il est franc, honnête, exigeant mais très attentionné envers les employés de sa petite compagnie, qu'il considère pratiquement comme une seconde famille.",
             "portraiturl" : "img/npcs/BertramHoldrek.jpg",
             "portraitdesc" : "Le capitaine de la compagnie du blaireau... avec un blaireau."
+        },
+        {
+            "name" : "Ned",
+            "role" : "Allié",
+            "intro": 1,
+            "desc" : "Halfling, Garde et éclaireur de la compagnie du Blaireau.",
+            "quote": "On... ON est atta-atta.. Attaqués !",
+            "description" : "Ned est un halfling maigrichon qui sert de garde mais surtout d'éclaireur et de messager à la compagnie. Il est facilement effrayé mais cours très vite.",
+            "portraiturl" : "",
+            "portraitdesc" : ""
+        },
+        {
+            "name" : "Almira",
+            "role" : "Allié",
+            "intro": 1,
+            "desc" : "Haute-Elfe, Garde et magicienne de la compagnie du Blaireau.",
+            "quote": "",
+            "description" : "Almira est la magicienne à la coiffure extravagante de la compagnie, elle travaille a temps partiel pour Bertram afin de payer ses frais de scolarité. Elle n'est encore qu'une apprentie mais a une préférence pour les sortilèges de froid.",
+            "portraiturl" : "",
+            "portraitdesc" : ""
+        },
+        {
+            "name" : "Jules",
+            "role" : "Allié",
+            "intro": 1,
+            "desc" : "Shifter, Garde de la compagnie du Blaireau.",
+            "quote": "",
+            "description" : "Jules est un shifter aux yeux de chat et plutot velu. Il est père de famille attentionné et très sociable.",
+            "portraiturl" : "",
+            "portraitdesc" : ""
+        },
+        {
+            "name" : "Cole",
+            "role" : "Allié",
+            "intro": 1,
+            "desc" : "Humain, Garde de la compagnie du Blaireau.",
+            "quote": "",
+            "description" : "Cole travaille à la compagnie du Blaireau comme second emploi, il travaille également dans le chenil d'un aristocrate qui élève des chiens de chasse. Cole a constamment une odeur désagréable d'urine de chien qui le suit.",
+            "portraiturl" : "",
+            "portraitdesc" : ""
+        },
+        {
+            "name" : "Drevik le Sordide",
+            "role" : "Adversaire",
+            "intro": 1,
+            "desc" : "Homme de main des héritiers",
+            "quote": "Qu'est-ce que vous FAITES !? Bande d'INCAPABLES!",
+            "description" : "Homme humain? Rencontré lors de l'attaque à l'Ésotérium, il est couvert de bandages et porte les traces de lésions, furoncles et plaies due a une maladie. Il porte une armure lourde et manie un fléau qui émet une aura toxique.",
+            "portraiturl" : "img/npcs/drevik.jpg",
+            "portraitdesc" : "N'a pas une gueule de <a href=\"https://youtu.be/TCiesht30Wk?t=19\">porte bonheur</a>"
+        },
+        {
+            "name" : "Cambrioleuse inconnue",
+            "role" : "Adversaire",
+            "intro": 1,
+            "desc" : "Shifter Acrobate-Cambrioleur",
+            "quote": "",
+            "description" : "Femelle shifter, acrobate de calibre professionnel et très rapite sur ses pattes. Rencontrée lors de l'attaque à l'Ésotérium.",
+            "portraiturl" : "",
+            "portraitdesc" : ""
+        },
+        {
+            "name" : "Cambrioleur inconnu",
+            "role" : "Adversaire",
+            "intro": 1,
+            "desc" : "Cambrioleur aux trois yeux enflammés, prêtre de Lloth",
+            "quote": "Bonsoir mesdames et messieurs, Nous avons le regret de vous informer que l'établissement doit temporairement  fermer. Nos cambrioleurs feront tout en leurs pouvoir pour delaister votre employeur de ses decadentes richesses le plus vite possible.",
+            "description" : "Humanoide mâle à la peau orangée, et trois yeux enflammés. Son talent pour la magie illusoire laisse penser que ce n'est pas sa réelle apparence. Il emploie la magie et les membres de la compagnie l'ont entendu réciter des prières en Sylvain à la dame des mensonges (Lloth).",
+            "portraiturl" : "",
+            "portraitdesc" : ""
+        },
+        {
+            "name" : "Dame Margareth Emma Flemming",
+            "role" : "Neutre",
+            "intro": 1,
+            "desc" : "Humaine, noble et propriétaire de l'ésotérium",
+            "quote": "Par les dieux, mais qu'est-que c'est que ces horreurs, Gaston ! Expliquez-moi la présence de ces sinistres individus sur les prémices de mon musée.",
+            "description" : "Dame Margareth Emma Flemming est une femme humaine dans la mi-cinquantaine, cheveux en chignon, des vêtement de soie noir et d'argent. Elle a des yeux couleurs acier derrière de petites lunettes rondes.",
+            "portraiturl" : "",
+            "portraitdesc" : ""
         }
     ],
 

@@ -9,6 +9,7 @@ function LoadJournal() {
             console.error('Journal non disponible.');
         })
         .done(function (data) {
+            var sortedJournal = data.journal.sort((a,b) => parseInt(b.no) - parseInt(a.no));
             $.each(data.journal, function (i, item) {
                 $('#container-journal').append(GenererJournal(data.journal[i]));
             });

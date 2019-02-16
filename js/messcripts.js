@@ -9,7 +9,7 @@ function ReconnaissancePortraits(){
     $(".card-img-top").on('click', function (event) {
         $('#viewerModal').css('display','block');
         $('#imgModal').attr('src', this.src);
-        $('#modal-caption').text(this.alt);
+        $('#modal-caption').html(this.alt);
     })
     $("#viewerModal").on('click', function (event) {
         $('#viewerModal').css('display','none');
