@@ -1,8 +1,18 @@
 $(document).ready(function () {
     $("#navbar").load("navbar.html");
-
     ReconnaissancePortraits();
 });
+
+function showMonster(name, cible){
+    $.getJSON('src/stats.json')
+    .fail(function () {
+        console.error('Fichier de monstres non disponible.')
+    })
+    .done(function (data) {
+        var monstreTrouve = data["monsters"].find(stat => stat.name.toLowerCase() === name.toLowerCase());
+        $(cible).html(GenererFiche(monstreTrouve));
+    })
+}
 
 function ReconnaissancePortraits(){
     /* Pour les galleries de npcs */

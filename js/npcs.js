@@ -1,3 +1,11 @@
+$(document).ready(function () {
+    FillListOfNpcs();
+    var searchContent = findGetParameter('s');
+    if(searchContent != null){
+        GenererFicheNPCParNom(searchContent);
+    }
+});
+
 function FillListOfNpcs()
 {
     var table = $('#tbListeNPCs').DataTable({
@@ -24,6 +32,17 @@ function FillListOfNpcs()
         $('#fichenpc').html(GenererFicheNPC(data));
         ReconnaissancePortraits();
     });
+}
+
+function GenererFicheNPCParNom(nomNPC){
+    $.getJSON('src/npcs.json')
+        .fail(function () {
+            console.error('Fichier de npcs non disponible.')
+        })
+        .done(function (data) {
+            var npcTrouve = data["npcs-mineurs"].find(npc => npc.name.toLowerCase() === nomNPC.toLowerCase());
+            $('#fichenpc').html(GenererFicheNPC(npcTrouve));
+        })
 }
 
 function GenererFicheNPC(npc)
