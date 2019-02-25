@@ -89,6 +89,36 @@
             "description" : "Dame Margareth Emma Flemming est une femme humaine dans la mi-cinquantaine, cheveux en chignon, des vêtement de soie noir et d'argent. Elle a des yeux couleurs acier derrière de petites lunettes rondes.",
             "portraiturl" : "",
             "portraitdesc" : ""
+        },
+        {
+            "name" : "Redmont",
+            "role" : "Neutre",
+            "intro": 3,
+            "desc" : "Nain, alchimiste en charge de distribuer le sérum aux shifters",
+            "quote": "",
+            "description" : "Nain, cheveux bruns, courte barbe bien taillée. Très barraqué pour un alchimiste. Il préfère prendre des précautions.",
+            "portraiturl" : "",
+            "portraitdesc" : ""
+        },
+        {
+            "name" : "Gladwick",
+            "role" : "Neutre",
+            "intro": 3,
+            "desc" : "Humain, alchimiste en charge de distribuer le sérum aux shifters",
+            "quote": "",
+            "description" : "Souriant, bavard et toujours optimiste.",
+            "portraiturl" : "",
+            "portraitdesc" : ""
+        },
+        {
+            "name" : "King",
+            "role" : "Adversaire",
+            "intro": 3,
+            "desc" : "Chef de Gang shifter opérant dans le labyrinthe.",
+            "quote": "",
+            "description" : "King à la réputation d'être un chef de Gang brutal, peu de gens du labyrinthe osent s'opposer à lui. Fraude, trafic et fabrications de substances illicites, extorsions... Son gang opère prèsque uniquement dans le Labyrinthe, à l'abris de la garde. ",
+            "portraiturl" : "",
+            "portraitdesc" : ""
         }
     ],
 
