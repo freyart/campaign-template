@@ -1436,45 +1436,45 @@
             "name": "Arcane Trickster",
             "category": "Crime",
             "keywords": "Medium humanoid (any race), any alignment",
-            "armor": "13 (leather)",
+            "armor": "14 (studded leather)",
             "hp": "36 (8d8)",
             "speed": "30 ft.",
             "str": 10,
             "dex": 14,
             "con": 10,
-            "int": 13,
+            "int": 16,
             "wis": 14,
             "cha": 16,
-            "skills": "Deception +5, Insight +4, Performance +5, Persuasion +5, Sleight of Hand +4, Stealth +4",
-            "saves": "",
+            "skills": "Deception +7, Insight +4, Persuasion +5, Sleight of Hand +5, Stealth +7",
+            "saves": "Dex +7, Int +5",
             "resistances": "",
             "dam-immunities": "",
             "cond-immunities": "",
             "senses": "passive Perception 12",
             "languages": "any one language (usually Common)",
-            "challenge": "1 (200 XP)",
+            "challenge": "2 (450 XP)",
             "section-traits": [
                 {
-                    "label": "Nimble escape",
+                    "label": "Cunning Action",
                     "deco": "",
-                    "desc": "The arcane trickster can take the Disengage or Hide action as a bonus action on each of its turns."
+                    "desc": "The trickster can take the Dash, Disengage, or Hide action as a bonus action on each of its turns."
                 },
                 {
                     "label": "Sneak Attack (1/Turn)",
                     "deco": "",
-                    "desc": "The trickster deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the trickster that isn't incapacitated and the trickster doesn't have disadvantage on the attack roll."
+                    "desc": "The trickster deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the trickster that isn't incapacitated and the trickster doesn't have disadvantage on the attack roll."
                 },
                 {
                     "label": "Spellcasting",
                     "deco": "",
-                    "desc": "The trickster is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It has the following bard spells prepared:<br><br>Cantrips (at will): <i>mage hand, vicious mockery</i><br>1st level (4 slots): <i>charm person, sleep</i><br>2nd level (2 slots): <i>invisibility</i>"
+                    "desc": "The trickster is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). It has the following Wizard spells prepared:<br><br>Cantrips (at will): <i>friends, mage hand*, message</i><br>1st level (4 slots): <i>charm person, disguise self, hideous laughter, sleep</i><br>2nd level (2 slots): <i>invisibility, misty step</i><br><br><i>*The trickster's mage hand is invisible.</i>"
                 }
             ],
             "section-actions": [
                 {
                     "label": "Dagger",
                     "deco": "Melee or Ranged Weapon Attack:",
-                    "desc": "+4 to hit, reach 5ft. or range 20/60 ft., one target. <i>Hit: </i>4 (1d4 + 2) piercing damage, plus 1d6 poison damage."
+                    "desc": "+5 to hit, reach 5ft. or range 20/60 ft., one target. <i>Hit: </i>5 (1d4 + 3) piercing damage."
                 }
             ],
             "section-reactions": [],
@@ -3157,6 +3157,96 @@
                     "desc": "The swordsman halves the damage from an attack that hits it. The swordsman must be able to see the attack."
                 }
             ],
+            "legendary-actions": []
+        },
+        {
+            "name": "Alchemist",
+            "category": "Arcane",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "14 (studded leather)",
+            "hp": "38 (7d8 + 7)",
+            "speed": "30 ft.",
+            "str": 11,
+            "dex": 14,
+            "con": 12,
+            "int": 18,
+            "wis": 14,
+            "cha": 10,
+            "skills": "Arcana +6",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 12",
+            "languages": "any two languages",
+            "challenge": "2 (450 XP)",
+            "section-traits": [],
+            "section-actions": [
+                {
+                    "label": "Alchemical Acid (3/Day)",
+                    "deco": "",
+                    "desc": "The alchemist throws a vial of acid at a creature or object up to 30 feet away. Creatures within 5 feet of the target must succeed on a DC 14 Dexterity saving throw, taking 14 (4d6) acid damage on a failed save, or half as much on a successful one."
+                },
+                {
+                    "label": "Flash Bomb (2/Day)",
+                    "deco": "",
+                    "desc": "The alchemist throws a ceramic bottle at a creature or object up to 30 feet away. Creatures within 5 feet of the target must succeed on a DC 14 Constitution saving throw or be blinded until the end of the alchemist's next turn."
+                },
+                {
+                    "label": "Rapier",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+4 to hit, reach 5ft., one target. <i>Hit: </i>6 (1d8 + 2) piercing damage."
+                }
+            ],
+            "section-reactions": [],
+            "legendary-actions": []
+        },
+        {
+            "name": "Artificer Gunsmith",
+            "category": "Arcane",
+            "keywords": "Medium humanoid (any race), any alignment",
+            "armor": "15 (chainshirt)",
+            "hp": "44 (8d8 + 8)",
+            "speed": "30 ft.",
+            "str": 11,
+            "dex": 16,
+            "con": 12,
+            "int": 17,
+            "wis": 14,
+            "cha": 10,
+            "skills": "Arcana +5, History +5, Investigation +5",
+            "saves": "",
+            "resistances": "",
+            "dam-immunities": "",
+            "cond-immunities": "",
+            "senses": "passive Perception 12",
+            "languages": "any two languages",
+            "challenge": "3 (700 XP)",
+            "section-traits": [
+                {
+                    "label": "Spellcasting",
+                    "deco": "",
+                    "desc": "The artificer is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It has the following artificer spells prepared:<br><br>1st level (4 slot): <i>expeditious retreat, longstrider</i><br>2nd level (3 slots): <i>blur, magic weapon, see invisibility</i><br>3rd level (2 slots): <i>blink, glyph of warding</i>"
+                },
+                {
+                    "label": "Infuse Magic (2/Day)",
+                    "deco": "",
+                    "desc": "The artificer can spend 1 minute infusing an item with one of the spells it knows, provided the spell has a casting time of one action. A creature with an Intelligence score of 6 or higher thereafter can activate the spell as an action.<br><br>The spellcasting save DC and modifier of the activated item is the same as the artificer's. If the spell targets more than one creature, the creature that activates the item selects the additional targets. If the spell has an area of effect, it is centered on the item. If the spell's range is self, it targets the creature that activates the item. If the spell requires concentration, the creature that activates the item maintains the concentration as if they had cast the spell.<br><br>An infused item remains so for 8 hours, after which point, the magic fades."
+                }
+            ],
+            "section-actions": [
+                {
+                    "label": "Rapier",
+                    "deco": "Melee Weapon Attack:",
+                    "desc": "+5 to hit, reach 5ft., one target. <i>Hit: </i>7 (1d8 + 3) piercing damage."
+                },
+                {
+                    "label": "Thundercannon",
+                    "deco": "Ranged Weapon Attack:",
+                    "desc": "+5 to hit, range 150/300 ft., one target. <i>Hit: </i>17 (4d6 + 3) thunder damage."
+                }
+            ],
+            "section-reactions": [],
             "legendary-actions": []
         }
     ]
